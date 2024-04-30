@@ -1,0 +1,9 @@
+@use "../../abstract/variables.scss";
+
+.score{
+    font-size: 500%;
+    color: map-get(variables.$cookieVars, "chips");
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

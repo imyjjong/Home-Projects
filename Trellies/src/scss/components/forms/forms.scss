@@ -1,0 +1,53 @@
+@use "../../abstract/variables";
+
+.forms{
+    
+    &Add{
+        width: 100%;
+        height: 4rem;
+        background: map-get(variables.$tasksVars, "taskBackground");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 200%;
+        font-weight: 600;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        padding: 3rem;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &__submit{
+        background: none;
+        color: map-get(variables.$fontVars, "color");
+        border: none;
+        font-weight: 600;
+        padding: 1rem;
+    }
+
+    &__input{
+        background: none;
+        border: none;
+        font-size: 100%;
+        padding: 0.4rem 0.2rem;
+        color: map-get(variables.$fontVars, "color");
+        border-bottom: 0.2rem solid map-get(variables.$formVars, "submitBackground");
+
+        &:focus{
+            outline: none;
+        }
+    }
+    &__listItem{
+        display: flex;
+        flex-direction: column;
+        background: map-get(variables.$tasksVars, "taskBackground");
+        color: map-get(variables.$tasksVars, "taskColor");
+        font-size: 90%;
+        padding: 1rem;
+        border-radius: 1rem;
+        gap: 0.2rem;
+    }
+}

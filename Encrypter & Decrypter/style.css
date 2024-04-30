@@ -1,0 +1,91 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  background: #161616;
+  color: whitesmoke;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  padding: 6rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.view {
+  background: #202020;
+  width: 50rem;
+  aspect-ratio: 1/1;
+  padding: 4rem;
+  border-radius: 2rem;
+}
+.viewHeader {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewHeader__heading {
+  font-size: 200%;
+  font-weight: 400;
+}
+.viewBody {
+  height: 60%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewBody__textarea {
+  background: none;
+  width: 100%;
+  height: 60%;
+  color: whitesmoke;
+  padding: 0.4rem 1rem;
+  font-size: 100%;
+  resize: none;
+  font-family: inherit;
+}
+.viewBody__textarea:focus {
+  outline: none;
+}
+.viewFooter {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewFooter__button {
+  background: black;
+  border: 0.2rem solid black;
+  color: whitesmoke;
+  font-size: 100%;
+  font-weight: 600;
+  padding: 1.5rem 2rem;
+  border-radius: 0.4rem;
+  width: 20rem;
+  transition: 0.2s all;
+}
+.viewFooter__button:hover {
+  background: whitesmoke;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

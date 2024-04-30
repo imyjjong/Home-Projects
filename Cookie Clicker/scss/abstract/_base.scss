@@ -1,0 +1,19 @@
+@use "variables.scss";
+
+body{
+    min-height: 100vh;
+    font-size: 2rem;
+    background: map-get(variables.$baseVars, "background");
+    color: map-get(variables.$baseVars, "color");
+    font-family: sans-serif;
+    padding: 4rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: min-content;
+}

@@ -1,0 +1,22 @@
+@use "variables";
+
+body{
+    min-height: 100vh;
+    font-size: 2rem;
+    background: map-get(variables.$baseVars, "background");
+    color: map-get(variables.$baseVars, "color");
+    font-family: map-get(variables.$baseVars, "font");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}

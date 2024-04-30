@@ -1,0 +1,54 @@
+@use "../../abstract/variables";
+
+.save{
+    font-size: 120%;
+    border: none;
+    height: min-content;
+    padding: 2rem;
+    background: map-get(variables.$cookieVars, "chips");
+    color: map-get(variables.$cookieVars, "color");
+    border-radius: 1rem;
+    max-width: 20rem;
+    width: 20rem;
+    font-weight: 600;
+    transition: 0.2s all;
+    border: 0.4rem solid map-get(variables.$cookieVars, "chips");
+
+    &:hover{
+        cursor: pointer;
+        background: map-get(variables.$cookieVars, "color");
+        color: map-get(variables.$cookieVars, "chips");
+    }
+}
+
+.avatar{
+    position: relative;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    background: map-get(variables.$cookieVars, "background");
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.4rem solid map-get(variables.$cookieVars, "chips");
+
+    &__head{
+        background: map-get(variables.$cookieVars, "chips");
+        width: 4rem;
+        aspect-ratio: 1/1;
+        position: absolute;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        transform: translate(60%, 50%);
+    }
+
+    &__body{
+        background: map-get(variables.$cookieVars, "chips");
+        width: 8rem;
+        height: 6rem;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 0;
+        left: 0;
+        transform: translate(5%, 70%);
+    }
+}

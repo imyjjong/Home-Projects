@@ -1,0 +1,269 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  background: linear-gradient(to bottom right, #B7CADB, #54BAB9);
+  color: black;
+  font-family: sans-serif;
+  padding: 4rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: min-content;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 45% 35% 20%;
+  align-items: start;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.upgrades {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+  width: max-content;
+  border-radius: 1rem;
+}
+.upgradesUpgrade {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-column-gap: 2rem;
+  color: #481E14;
+  transition: 0.2s all;
+}
+.upgradesUpgrade:nth-of-type(1) {
+  border-radius: 1rem 1rem 0 0;
+}
+.upgradesUpgrade:nth-of-type(3) {
+  border-radius: 0 0 1rem 1rem;
+}
+.upgradesUpgrade:hover {
+  cursor: pointer;
+  background: #481E14;
+  color: whitesmoke;
+}
+
+.upgradesMobile {
+  display: none;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  grid-template-rows: 5rem;
+  margin-top: 2rem;
+}
+.upgradesMobile__upgrade {
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 80%;
+  transition: 0.2s;
+  border-radius: 1rem;
+}
+.upgradesMobile__upgrade:hover {
+  cursor: pointer;
+}
+.upgradesMobile__upgrade:active {
+  transform: scale(0.9);
+}
+
+.save {
+  font-size: 120%;
+  border: none;
+  height: min-content;
+  padding: 2rem;
+  background: #481E14;
+  color: whitesmoke;
+  border-radius: 1rem;
+  max-width: 20rem;
+  width: 20rem;
+  font-weight: 600;
+  transition: 0.2s all;
+  border: 0.4rem solid #481E14;
+}
+.save:hover {
+  cursor: pointer;
+  background: whitesmoke;
+  color: #481E14;
+}
+
+.avatar {
+  position: relative;
+  width: 10rem;
+  aspect-ratio: 1/1;
+  background: #C08B5C;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 0.4rem solid #481E14;
+}
+.avatar__head {
+  background: #481E14;
+  width: 4rem;
+  aspect-ratio: 1/1;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transform: translate(60%, 50%);
+}
+.avatar__body {
+  background: #481E14;
+  width: 8rem;
+  height: 6rem;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+  transform: translate(5%, 70%);
+}
+
+.score {
+  font-size: 500%;
+  color: #481E14;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@keyframes shakeCookie {
+  0% {
+    transform: rotate(0deg);
+    transform: translate(0%);
+  }
+  25% {
+    transform: rotate(20deg);
+    transform: translate(20%, 10%);
+  }
+  50% {
+    transform: rotate(10deg);
+    transform: translate(10%, 5%);
+  }
+  75% {
+    transform: rotate(15deg);
+    transform: translate(15%, -10%);
+  }
+  100% {
+    transform: rotate(0deg);
+    transform: translate(0%);
+  }
+}
+.cookie {
+  position: relative;
+  width: 40rem;
+  aspect-ratio: 1/1;
+  background: #C08B5C;
+  box-shadow: inset 0 0 3rem 0.2rem #481E14;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.2s all;
+}
+.cookie:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.cookie:active {
+  transform: scale(1);
+}
+.cookie--chocolate {
+  background: rgb(255, 193, 37);
+  animation-name: shakeCookie;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.cookie__chip {
+  width: 10rem;
+  aspect-ratio: 1/1;
+  background: #481E14;
+  border-radius: 50%;
+  position: absolute;
+}
+.cookie__chip--first {
+  top: 10%;
+  left: 0;
+  width: 8rem;
+}
+.cookie__chip--second {
+  top: 15%;
+  right: 10%;
+  width: 7rem;
+}
+.cookie__chip--third {
+  bottom: 0;
+  left: 0;
+}
+.cookie__chip--fourth {
+  bottom: -5%;
+  right: 4%;
+}
+.cookie__chip--fifth {
+  top: 15%;
+  left: 10%;
+  transform: translate(100%);
+  width: 7rem;
+}
+.cookie__chip--sixth {
+  bottom: 25%;
+  right: 40%;
+  transform: translate(100%);
+  width: 7rem;
+}
+.cookie__chip--seventh {
+  bottom: 35%;
+  left: -5%;
+  transform: translate(100%);
+  width: 7rem;
+}
+
+@media screen and (max-width: 68.75rem) {
+  .save {
+    display: none;
+  }
+  .upgrades {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .cookie {
+    width: 20rem;
+  }
+  .cookie__chip {
+    width: 3.5rem;
+  }
+  .upgradesMobile {
+    display: grid;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+{
+    "data": {
+        "encrypt": {
+            "value": "",
+            "placeholder":  "show me to me please"
+        },
+        "decrypt": {
+            "value": "",
+            "placeholder":  "sent it to me rachel"
+        }
+    }
+}

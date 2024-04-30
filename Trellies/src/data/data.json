@@ -1,0 +1,149 @@
+{
+        "trellies": [
+            {
+                "id": 0,
+                "title": "Todo",
+                "edit": "...",
+                "activities": [
+                    {
+                        "description": "Loremulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "vic",
+                        "imgPath": "src/img/vic.jpg",
+                        "initials": "VJ",
+                        "name": "Victoria Justice"
+                    },
+                    {
+                        "description": "L assumenda. Sedore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/avan.jpg",
+                        "initials": "AJ",
+                        "name": "Avan Jogia"
+                    },
+                    {
+                        "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/liz.jpg",
+                        "initials": "LG",
+                        "name": "Liz Gillies"
+                    },
+                    {
+                        "description": "Lorem im cumque assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/vic.jpg",
+                        "initials": "VJ",
+                        "name": "Victoria Justice"
+                    },
+                    {
+                        "description": "Lor assumendur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "today this one baby",
+                        "imgPath": "src/img/robrex.jpg",
+                        "initials": "MB",
+                        "name": "Matt Bennet"
+                    },
+                    {
+                        "description": "Lorem ipsum dumque assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/vic.jpg",
+                        "initials": "VJ",
+                        "name": "Victoria Justice"
+                    }
+                ]
+            },
+            {
+                "id": 1, 
+                "title": "Other things",
+                "edit": "...",
+                "activities": [
+                    {
+                        "description": "Loremulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "vic",
+                        "imgPath": "src/img/vic.jpg",
+                        "initials": "VJ",
+                        "name": "Victoria Justice"
+                    },
+                    {
+                        "description": "L assumenda. Sedore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/avan.jpg",
+                        "initials": "AJ",
+                        "name": "Avan Jogia"
+                    },
+                    {
+                        "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/liz.jpg",
+                        "initials": "LG",
+                        "name": "Liz Gillies"
+                    }
+                ]
+            },
+            {
+                "id": 2,     
+                "title": "Trellie list",
+                "edit": "...",
+                "activities": [
+                    {
+                        "description": "Loremulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "vic",
+                        "imgPath": "src/img/vic.jpg",
+                        "initials": "VJ",
+                        "name": "Victoria Justice"
+                    },
+                    {
+                        "description": "L assumenda. Sedore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/avan.jpg",
+                        "initials": "AJ",
+                        "name": "Avan Jogia"
+                    },
+                    {
+                        "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/liz.jpg",
+                        "initials": "LG",
+                        "name": "Liz Gillies"
+                    },
+                    {
+                        "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
+                        "label": "today",
+                        "imgPath": "src/img/liz.jpg",
+                        "initials": "LG",
+                        "name": "Liz Gillies"
+                    }
+                ]
+            }
+        ],
+        "inputs": [
+            {
+                "name": "label",
+                "type": "text",
+                "placeholder": "Enter a label name"
+            },
+            {
+                "name": "color",
+                "type": "text",
+                "placeholder": "Enter a color (hex code)"
+            },
+            {
+                "name": "activity",
+                "type": "text",
+                "placeholder": "Enter an activity"
+            },
+            {
+                "name": "person",
+                "type": "text",
+                "placeholder": "Choose a file"
+            },
+            {
+                "name": "initials",
+                "type": "text",
+                "placeholder": "Enter persons initials"
+            },
+            {
+                "name": "name",
+                "type": "text",
+                "placeholder": "Enter persons name"
+            }
+
+        ]
+}

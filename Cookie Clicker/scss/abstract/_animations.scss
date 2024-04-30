@@ -1,0 +1,29 @@
+@keyframes shakeCookie{
+    0%{
+        transform: rotate(0deg);
+        transform: translate(0%);
+    }
+    25%{
+        transform: rotate(20deg);
+        transform: translate(20%, 10%);
+    }
+    50%{
+        transform: rotate(10deg);
+        transform: translate(10%, 5%);
+    }
+    75%{
+        transform: rotate(15deg);
+        transform: translate(15%, -10%);
+    }
+    100%{
+        transform: rotate(0deg);
+        transform: translate(0%);
+    }
+}
+
+@mixin shakeCookie{
+    animation-name: shakeCookie;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}

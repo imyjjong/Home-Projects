@@ -1,0 +1,45 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  background: rgb(9, 9, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.library {
+  background: rgb(91, 71, 71);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+}
+.library__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.library__input {
+  color: whitesmoke;
+}
+.library__image {
+  width: 20rem;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=style.css.map */

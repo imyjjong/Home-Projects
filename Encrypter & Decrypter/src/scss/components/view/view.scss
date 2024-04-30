@@ -1,0 +1,66 @@
+@use "../../abstract/variables.scss";
+
+.view{
+    background: map-get(variables.$viewVars, "background");
+    width: 50rem;
+    aspect-ratio: 1/1;
+    padding: 4rem;
+    border-radius: 2rem;
+
+    &Header{
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__heading{
+            font-size: 200%;
+            font-weight: 400;
+        }
+    }
+    &Body{
+        height: 60%;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__textarea{
+            background: none;
+            width: 100%;
+            height: 60%;
+            color: map-get(variables.$baseVars, "color");
+            padding: 0.4rem 1rem;
+            font-size: 100%;
+            resize: none;
+            font-family: inherit;
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    &Footer{
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__button{
+            background: black;
+            border: 0.2rem solid black;
+            color: whitesmoke;
+            font-size: 100%;
+            font-weight: 600;
+            padding: 1.5rem 2rem;
+            border-radius: 0.4rem;
+            width: 20rem;
+            transition: 0.2s all;
+
+            &:hover{
+                background: whitesmoke;
+                color: black;
+            }
+        }
+    }
+}

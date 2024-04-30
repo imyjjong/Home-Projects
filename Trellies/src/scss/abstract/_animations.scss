@@ -1,0 +1,17 @@
+@keyframes shake{
+    0%{
+        transform: rotate(-3deg);
+    }
+    50%{
+        transform: rotate(3deg);
+    }
+    100%{
+        transform: rotate(-3deg);
+    }
+}
+
+@mixin shake{
+    animation-name: shake;
+    animation-duration: 0.15s;
+    animation-iteration-count: infinite;
+}

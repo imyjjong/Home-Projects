@@ -1,0 +1,7 @@
+@use "variables";
+
+body{
+    min-height: 100vh;
+    background: map-get(variables.$baseVars, "background");
+    color: map-get(variables.$baseVars, "color");
+}

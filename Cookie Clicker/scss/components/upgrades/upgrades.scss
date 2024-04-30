@@ -1,0 +1,60 @@
+@use "../../abstract/variables.scss";
+
+.upgrades{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: map-get(variables.$upgradeVars, "background");
+    width: max-content;
+    border-radius: 1rem;
+
+    &Upgrade{
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 10% 90%;
+        grid-column-gap: 2rem;
+        color: map-get(variables.$cookieVars, "chips");
+        transition: 0.2s all;
+
+        &:nth-of-type(1){
+            border-radius: 1rem 1rem 0 0;
+        }
+        &:nth-of-type(3){
+            border-radius: 0 0 1rem 1rem;
+        }
+
+        &:hover{
+            cursor: pointer;
+            background: map-get(variables.$cookieVars, "chips");
+            color: map-get(variables.$cookieVars, "color");
+        }
+    }
+}
+
+.upgradesMobile{
+    display: none;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    grid-template-rows: 5rem;
+    margin-top: 2rem;
+
+    &__upgrade{
+        background: map-get(variables.$cookieVars, "color");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 80%;
+        transition: 0.2s;
+        border-radius: 1rem;
+        &:hover{
+            cursor: pointer;
+        }
+        &:active{
+            transform: scale(0.9);
+        }
+    }
+}
