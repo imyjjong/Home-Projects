@@ -16,8 +16,10 @@ class AddCard{
 
         this.activity = document.createElement("p");
         this.activity.classList.add("trellies__listItem--activity");
+        this.activity.setAttribute("id", this.input[6])
         this.activity.innerText = this.input[2];
         this.trellie.appendChild(this.activity);
+        console.log(this.input[6]);
 
         this.figure = document.createElement("figure");
         this.figure.classList.add("trellies__listItem--figure");
@@ -37,5 +39,15 @@ class AddCard{
         this.number = parseInt(document.getElementsByClassName("trellies__headerWrapper--number")[this.id].innerText);
         document.getElementsByClassName("trellies__headerWrapper--number")[this.id].innerText = this.number += 1;
         this.trellie.classList = "trellies__listItem";
+        this.array = [];
+        this.array.push(this.input);
+        this.uniqueId = this.input[2];
+        window.localStorage.setItem(this.uniqueId, this.array);
+        this.onLoad;
+    }
+    onLoad = () => {
+        this.storageJSON = window.localStorage.getItem(this.uniqueId);
+        this.newTrellie = new Trellies();
+        this.newTrellie.localStorageCards(this.storageJSON, this.uniqueId);
     }
 }

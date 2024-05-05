@@ -32,6 +32,12 @@ class AddList{
             this.titleInput.classList.add("forms__input");
             this.trellies.appendChild(this.titleInput);
 
+            this.hidden = document.createElement("input");
+            this.hidden.classList.add("forms__input");
+            this.hidden.setAttribute("type", "hidden");
+            this.hidden.setAttribute("value", "list");
+            this.trellies.appendChild(this.hidden);
+
             this.submit = document.createElement("input");
             this.submit.classList.add("forms__submit");
             this.submit.setAttribute("type", "submit");
@@ -67,5 +73,11 @@ class AddList{
 
         this.titleInput.remove();
         this.submit.remove();
+        
+        this.array = [];
+        this.array.push(this.titleInput.value, this.hidden.value);
+        console.log(this.array);
+        this.storeList = window.localStorage.setItem(this.titleInput.value, this.array)
+
     }
 }

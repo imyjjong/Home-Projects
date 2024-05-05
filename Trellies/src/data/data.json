@@ -10,42 +10,48 @@
                         "label": "vic",
                         "imgPath": "src/img/vic.jpg",
                         "initials": "VJ",
-                        "name": "Victoria Justice"
+                        "name": "Victoria Justice",
+                        "color": "violet"
                     },
                     {
                         "description": "L assumenda. Sedore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/avan.jpg",
                         "initials": "AJ",
-                        "name": "Avan Jogia"
+                        "name": "Avan Jogia",
+                        "color": "#9c959e"
                     },
                     {
                         "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/liz.jpg",
                         "initials": "LG",
-                        "name": "Liz Gillies"
+                        "name": "Liz Gillies",
+                        "color": "black"
                     },
                     {
                         "description": "Lorem im cumque assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/vic.jpg",
                         "initials": "VJ",
-                        "name": "Victoria Justice"
+                        "name": "Victoria Justice",
+                        "color": "lightblue"
                     },
                     {
                         "description": "Lor assumendur, inventore illo dicta totam perspiciatis sequi error!",
                         "label": "today this one baby",
                         "imgPath": "src/img/robrex.jpg",
                         "initials": "MB",
-                        "name": "Matt Bennet"
+                        "name": "Matt Bennet",
+                        "color": "orange"
                     },
                     {
                         "description": "Lorem ipsum dumque assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/vic.jpg",
                         "initials": "VJ",
-                        "name": "Victoria Justice"
+                        "name": "Victoria Justice",
+                        "color": "lightblue"
                     }
                 ]
             },
@@ -59,21 +65,24 @@
                         "label": "vic",
                         "imgPath": "src/img/vic.jpg",
                         "initials": "VJ",
-                        "name": "Victoria Justice"
+                        "name": "Victoria Justice",
+                        "color": "lightblue"
                     },
                     {
                         "description": "L assumenda. Sedore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/avan.jpg",
                         "initials": "AJ",
-                        "name": "Avan Jogia"
+                        "name": "Avan Jogia",
+                        "color": "navy"
                     },
                     {
                         "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/liz.jpg",
                         "initials": "LG",
-                        "name": "Liz Gillies"
+                        "name": "Liz Gillies",
+                        "color": "lightblue"
                     }
                 ]
             },
@@ -87,28 +96,32 @@
                         "label": "vic",
                         "imgPath": "src/img/vic.jpg",
                         "initials": "VJ",
-                        "name": "Victoria Justice"
+                        "name": "Victoria Justice",
+                        "color": "lightblue"
                     },
                     {
                         "description": "L assumenda. Sedore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/avan.jpg",
                         "initials": "AJ",
-                        "name": "Avan Jogia"
+                        "name": "Avan Jogia",
+                        "color": "red"
                     },
                     {
                         "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/liz.jpg",
                         "initials": "LG",
-                        "name": "Liz Gillies"
+                        "name": "Liz Gillies",
+                        "color": "lightblue"
                     },
                     {
                         "description": "Lore assumenda. Sed quidem maiores sint rem nulla recusandae! Voluptates consectetur, inventore illo dicta totam perspiciatis sequi error!",
                         "label": "today",
                         "imgPath": "src/img/liz.jpg",
                         "initials": "LG",
-                        "name": "Liz Gillies"
+                        "name": "Liz Gillies",
+                        "color": "lightblue"
                     }
                 ]
             }
@@ -144,6 +157,5 @@
                 "type": "text",
                 "placeholder": "Enter persons name"
             }
-
         ]
 }

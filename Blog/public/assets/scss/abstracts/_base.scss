@@ -1,0 +1,14 @@
+@use "variables";
+
+body{
+    min-height: 100vh;
+    font-size: 2rem;
+    font-family: map-get(variables.$baseVars, "font");
+    background: map-get(variables.$baseVars, "background");
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    padding: 10rem 4rem;
+}

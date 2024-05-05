@@ -19,8 +19,22 @@ class Form{
             this.input.setAttribute("name", data.inputs[i].name);
             this.input.placeholder = data.inputs[i].placeholder;
             this.listItem.appendChild(this.input);
-
         }
+        this.hidden = document.createElement("input");
+        this.hidden.classList.add("forms__input");
+        this.hidden.setAttribute("type", "hidden");
+        this.hidden.setAttribute("name", "id");
+        this.hidden.setAttribute("value", this.id);
+        this.listItem.appendChild(this.hidden);
+        console.log(this.hidden);
+        
+        this.card = document.createElement("input");
+        this.card.classList.add("forms__input");
+        this.card.setAttribute("type", "hidden");
+        this.card.setAttribute("name", "card");
+        this.card.setAttribute("value", "card");
+        this.listItem.appendChild(this.card);
+        console.log(this.card);
 
         this.submit = document.createElement("button");
         this.submit.classList.add("forms__submit");
@@ -33,6 +47,7 @@ class Form{
         this.allInputs = document.getElementsByClassName("forms__input");
         for(let i = 0; i < this.allInputs.length; i++){
             this.array.push(this.allInputs[i].value);
+            console.log(this.allInputs[i]);
         }
         this.addCard = new AddCard(this.array, this.listItem, this.id);
         this.edit = new Edit();

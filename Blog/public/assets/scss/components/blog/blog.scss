@@ -1,0 +1,6 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.blog{
+    background: map-get(variables.$blogVars, "background");
+}
