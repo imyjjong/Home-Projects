@@ -1,0 +1,56 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.calculator{
+    background: map-get(variables.$calculatorVars, "background");
+    @include mixins.flexBox;
+    flex-direction: column;
+    width: 40rem;
+    height: 55rem;
+    padding: 2rem;
+    gap: 1rem;
+
+    &__screen{
+        width: 100%;
+        background: map-get(variables.$calculatorVars, "screen");
+        height: 10rem;
+        padding: 1rem;
+    }
+
+    &__buttonBox{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1.2rem;
+        
+
+        &--button{
+            background: map-get(variables.$calculatorVars, "button");
+            border: 0.2rem solid map-get(variables.$calculatorVars, "button");
+            font-size: 120%;
+            color: map-get(variables.$baseVars, "color");
+            border-radius: 0.4rem;
+
+            &:hover{
+                cursor: pointer;
+                border: 0.2rem dotted black;
+            }
+            
+            &:focus{
+                outline: none;
+            }
+        }
+
+        &--opt{
+            background: map-get(variables.$calculatorVars, "opt");
+            border: 0.2rem solid map-get(variables.$calculatorVars, "opt");
+        }
+
+        &--equals{
+            background: map-get(variables.$calculatorVars, "equals");
+            border: 0.2rem solid map-get(variables.$calculatorVars, "equals");
+            grid-column: 3/5;
+        }
+    }
+}
