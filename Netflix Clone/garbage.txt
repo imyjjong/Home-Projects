@@ -1,0 +1,327 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/animations";
+
+.shows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 35rem;
+    overflow-x: hidden;
+    overflow-x: scroll;
+    z-index: 20;
+    background: blue;
+
+    &__category{
+        font-size: 140%;
+        font-weight: 400;
+        
+    }
+
+    &__list{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+.show{
+    position: relative;
+    width: 28rem;
+    transition: 0.2s all;
+
+    // &:hover{
+    //     cursor: pointer;
+    //     //@include animations.expand;
+    //     flex-shrink: 0;
+    // }
+
+    &:hover &__information{
+        display: block;
+    }
+
+    &__image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__information{
+        display: none;
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        z-index: 100;
+        padding: 0.4rem;
+
+        &--play{
+            width: 100%;
+            height: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+            &-button{
+                font-size: 160%;
+                color: map-get(variables.$netflixVars, "red");
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 6rem;
+                aspect-ratio: 1 / 1;
+                border-radius: 50%;
+                border: 0.4rem solid white;
+                background: rgba(0, 0, 0, 0.7);
+            }
+        }
+        
+        &--title{
+            font-size: 90%;
+            text-shadow: 0 0.1rem 0.2rem black;
+        }
+
+        &--wrapper{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 1rem;
+
+            &-match{
+                color: #41af5a;
+                font-weight: 600;
+                text-shadow: 0 0.1rem 0.2rem black;
+                font-size: 80%;
+            }
+            &-year, &-duration{
+                font-weight: 600;
+                text-shadow: 0 0.1rem 0.2rem black;
+                font-size: 80%;
+            }
+            &-age{
+                font-weight: 300;
+                border: 0.1rem solid white;
+                padding: 0rem 0.4rem;
+                height: 1.4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 75%;
+            }
+        }
+
+        &--description{
+            font-size: 70%;
+            font-weight: 300;
+            line-height: 1rem;
+            text-shadow: 0 0.1rem 0.2rem black;
+        }
+
+        &--arrow{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-button{
+                font-size: 100%;
+            }
+        }
+    }
+}
+
+.shows__list:focus-within .show,
+.shows__list:hover .show {
+transform: translateX(-30%);
+}
+
+.show:focus ~ .show,
+.show:hover ~ .show {
+transform: translateX(30%);
+}
+
+.shows__list .show:focus,
+.shows__list .show:hover {
+transform: scale(1.8);
+z-index: 1000000;
+}
+
+
+    <header class="header">
+        <div class="header__wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="" class="header__logo">
+            <nav class="header__navigation">
+                <a href="" class="header__navigation--item">Home</a>
+                <a href="" class="header__navigation--item">TV Shows</a>
+                <a href="" class="header__navigation--item">Movies</a>
+                <a href="" class="header__navigation--item">Recently Added</a>
+                <a href="" class="header__navigation--item">My List</a>
+            </nav>
+        </div>
+        <ul class="header__list">
+            <li class="header__list--item">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li class="header__list--item">KIDS</li>
+            <li class="header__list--item">DVD</li>
+            <li class="header__list--item">
+                <i class="fa-regular fa-bell"></i>
+            </li>
+            <li class="header__list--item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="" class="header__list--item-avatar">
+            </li>
+        </ul>
+    </header>
+    <section class="heading">
+        <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeOVzKnhOs14cmNTdQWaVSJput5HrY8sVs_T65WNDuNgXqxiRfVPgT6N5tIY4EqWsoYcNAYrr6qpLjpRJ8pQfEkRhHMLIH49bmNP.jpg?r=b94" alt="" class="heading__image">
+        <div class="heading__wrapper">
+            <figure class="heading__wrapper--title">
+                <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABUTT6x9rAaR5M0OtzUEh8R3S6AZk_p841b2no9rP0-0PNSo0bcqixgOjeexMRaj5leCx-QCuXqDOeUbyloqNkoK_huX3QZDTTN7t1O5dKvq4Iicavs7bYU5lbZtmrACn5jnagCSgt-M2E_nLVaWgadm-JSNpZibIiWH3SNibElZGm0a9BS_VLQ.png?r=5c8" alt="" class="heading__wrapper--title-image">
+            </figure>
+            <span class="heading__wrapper--buttons">
+                <button class="heading__wrapper--buttons-button">
+                    <i class="fa-solid fa-play"></i>
+                     Play
+                </button>
+                <button class="heading__wrapper--buttons-button">
+                    <i class="fa-solid fa-plus"></i>
+                     My List
+                </button>
+            </span>
+            <article class="heading__wrapper--description">
+                <p class="heading__wrapper--description-text">
+                    In high-society Atlanta, staying rich means playing dirty for two affluent families caught in an outrageous feud for power, prestige and love.
+                </p>
+            </article>
+        </div>
+    </section>
+    <main class="main">
+        <section class="shows">
+            <h3 class="shows__category">Top Picks For You</h3>
+            <div class="shows__list">
+                <article class="show">
+                    <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe0nVlDiXZxKiK7av0UI8OpInY3s3bdpsZNQAnBgNKQUhzqIvkkZZW7m9r8e2MVFy8xWFYoD7H559nK0fRT79Zy-8wt1otnEZi9yb23ifOcHLw9a0O76p8Xs.jpg?r=d66" alt="" class="show__image">
+                    <div class="show__information">
+                        <div class="show__information--play">
+                            <i class="fa-solid fa-play show__information--play-button"></i>
+                        </div>
+                        <h3 class="show__information--title">Dynasty</h3>
+                        <span class="show__information--wrapper">
+                            <p class="show__information--wrapper-match">99% Match</p>
+                            <p class="show__information--wrapper-year">2017</p>
+                            <p class="show__information--wrapper-age">12</p>
+                            <p class="show__information--wrapper-duration">5 Seasons</p>
+                        </span>
+                        <p class="show__information--description">
+                            In high-society Atlanta, staying rich means playing dirty for two affluent families caught in an outrageous feud for power, prestige and love.
+                        </p>
+                        <div class="show__information--arrow">
+                            <i class="fa-solid fa-chevron-down show__information--arrow-button"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="show">
+                    <img src="https://occ-0-448-444.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABY1lgHLARXhiipGC_8D2x1i4TPMy_k0n-TsE7GJBt96mIXfz4hCYkTmiJhBXH0v_xdr_0Z99muRipunQBBdVq3gjShE8I7LOTtav-2kHnAS6PGAGY9wd9hTC6eORizm85Y62SA.webp?r=c68" alt="" class="show__image">
+                    <div class="show__information">
+                        <h3 class="show__information--title">Dynasty</h3>
+                        <span class="show__information--wrapper">
+                            <p class="show__information--wrapper-match">99% Match</p>
+                            <p class="show__information--wrapper-year">2017</p>
+                            <p class="show__information--wrapper-age">12</p>
+                            <p class="show__information--wrapper-duration">5 Seasons</p>
+                        </span>
+                        <p class="show__information--description">
+                            In high-society Atlanta, staying rich means playing dirty for two affluent families caught in an outrageous feud for power, prestige and love.
+                        </p>
+                    </div>
+                </article>
+                <article class="show">
+                    <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcT9Ywd6_k-nbjZrXbw4a7omboATnwKeHahrlbRGosiOWUo96T-c2DEJV9MVYS-iijNimXVEOrRVOSxTPJt0-bCaCu-P2UZYAAtq.jpg?r=038" alt="" class="show__image">
+                    <div class="show__information">
+                        <h3 class="show__information--title">Dynasty</h3>
+                        <span class="show__information--wrapper">
+                            <p class="show__information--wrapper-match">99% Match</p>
+                            <p class="show__information--wrapper-year">2017</p>
+                            <p class="show__information--wrapper-age">12</p>
+                            <p class="show__information--wrapper-duration">5 Seasons</p>
+                        </span>
+                        <p class="show__information--description">
+                            In high-society Atlanta, staying rich means playing dirty for two affluent families caught in an outrageous feud for power, prestige and love.
+                        </p>
+                    </div>
+                </article>
+                <article class="show">
+                    <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSGtv55T_iUdTa9fXCVk1jXTwYT3kd0SsILKwz_Yb_LI17SXTaRH2vyTXM0A9Syjlex2e5WphqXRyIHMRI5mBuxVAxyA28RQ8uTs.jpg?r=3b9" alt="" class="show__image">
+                    <div class="show__information">
+                        <h3 class="show__information--title">Dynasty</h3>
+                        <span class="show__information--wrapper">
+                            <p class="show__information--wrapper-match">99% Match</p>
+                            <p class="show__information--wrapper-year">2017</p>
+                            <p class="show__information--wrapper-age">12</p>
+                            <p class="show__information--wrapper-duration">5 Seasons</p>
+                        </span>
+                        <p class="show__information--description">
+                            In high-society Atlanta, staying rich means playing dirty for two affluent families caught in an outrageous feud for power, prestige and love.
+                        </p>
+                    </div>
+                </article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+            </div>
+        </section>
+        <section class="shows">
+            <h3 class="shows__category">you would</h3>
+            <div class="shows__list">
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+            </div>
+        </section>
+        <section class="shows">
+            <h3 class="shows__category">shut up</h3>
+            <div class="shows__list">
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+            </div>
+        </section>
+        <section class="shows">
+            <h3 class="shows__category">how you be</h3>
+            <div class="shows__list">
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+            </div>
+        </section>
+        <section class="shows">
+            <h3 class="shows__category">spending ur time</h3>
+            <div class="shows__list">
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+                <article class="show"><img src="https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg" alt="" class="show__image"></article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Netflix Clone</footer>

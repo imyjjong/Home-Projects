@@ -1,0 +1,241 @@
+{
+    "shows": [
+        {
+            "id": 0,
+            "type": "Show",
+            "title": "Dynasty",
+            "description": "In high-society Atlanta, staying rich means playing dirty for two affluent families caught in an outrageous feud for power, prestige and love.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe0nVlDiXZxKiK7av0UI8OpInY3s3bdpsZNQAnBgNKQUhzqIvkkZZW7m9r8e2MVFy8xWFYoD7H559nK0fRT79Zy-8wt1otnEZi9yb23ifOcHLw9a0O76p8Xs.jpg?r=d66",
+            "backdrop": "https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABUTT6x9rAaR5M0OtzUEh8R3S6AZk_p841b2no9rP0-0PNSo0bcqixgOjeexMRaj5leCx-QCuXqDOeUbyloqNkoK_huX3QZDTTN7t1O5dKvq4Iicavs7bYU5lbZtmrACn5jnagCSgt-M2E_nLVaWgadm-JSNpZibIiWH3SNibElZGm0a9BS_VLQ.png?r=5c8",
+            "starring": "Elizabeth Gillies, Grant Show, Rafael De La Fuente",
+            "duration": "5 Seasons",
+            "genre": "Drama",
+            "match": "99%",
+            "age": "12",
+            "year": 2017
+        },
+        {
+            "id": 1,
+            "type": "Movie",
+            "title": "Pulp Fiction",
+            "description": "This stylized crime caper weaves together stories featuring a contract killer, his philosophical partner and a washed-up boxer.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSGtv55T_iUdTa9fXCVk1jXTwYT3kd0SsILKwz_Yb_LI17SXTaRH2vyTXM0A9Syjlex2e5WphqXRyIHMRI5mBuxVAxyA28RQ8uTs.jpg?r=3b9",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSk4JIuoD03I4yQ4mz6nOuYb0JOUk2PT8JhyoCDaj4qxvIyT3iEXHvXBHF22jVuCTnAa7E9ib3YgzAfikb6tBnFBpM5dVHHsr3Vo.jpg?r=aab",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABT7Dz4waAdGbUTKnbenX_vuoWVjKMu6p0CJrWWjB4jKgGFTC---XEGh8gL9FwL6waBTQnfashFI4n5eJIG4i8dLuUye_G_fKSgSHcVxYE9xM.png?r=772",
+            "starring": "John Travolta, Samuel L. Jackson, Uma Thurman",
+            "duration": "2h 34m",
+            "genre": "Drama",
+            "match": "97%",
+            "age": "16",
+            "year": 1994
+        },
+        {
+            "id": 2,
+            "type": "Movie",
+            "title": "The Amazing Spider-Man",
+            "description": "Andrew Garfield stars as Peter Parker, a high schooler learning to wield new powers while uncovering family secrets and battling a familiar archvillain.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTQuwFj4Jasbn6T64pO254QZZozuAst2y4xvu1-DsaJXy3XnYMtJKZfXKyN34j6GJ2MS2CzjqnVZ2WFN8OQ9I2nqkrEbG4D4guO2.jpg?r=225",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXhymqtRD9zDa-LryItMqWhNxZd1E9YmrPs_YoQxeTJFnd6F1y2o4jrJG0FKAHKaNnZ17Ibj31CadJ3Sf-u_iZA4Q31hQOLkvc94.jpg?r=e8b",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfuHyc5umbi1zbRyNO3AWSuHf3ptbJ3eTA0JqPcR7cYu25Zy96OiH5JeGwQOGO7B5dkKlqm_G83ksE_6ht0puK5lcFzyAHB_jwIdqwW4gy63.png?r=0ea",
+            "starring": "Andrew Garfield, Emma Stone, Rhys Ifans",
+            "duration": "2h 16m",
+            "genre": "Action",
+            "match": "89%",
+            "age": "PG-13",
+            "year": 2012
+        },
+        {
+            "id": 3,
+            "type": "Movie",
+            "title": "Mean Girls",
+            "description": "After being homeschooled abroad, new student Cady gets a crash course in high school life when a popular clique of girls invites her to sit with them.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQ9OCiZu1MmWmsPIpuvUo_HrTYeNdBnWjqy-uswH2c8d5OHM6Im0zC7YyDXZQy8dji8ajjaZ1ams1HzmhmTt5C0sRTGSPha8SCoZ.jpg?r=fe6",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdTzXctAANZ3TRo3EyKgpD0ZwVCNZaERT-lGGbhE8REtIRTjiPwIR5WpKYvHmB8tsVPWjk0JCAhjGa4ITxuiMLvb2LP_g6K53iaa.jpg?r=ac8",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABa6EDHYcV6B_Ul3AghA__V3v2qa3FxmPBDBKNRdC2GckVWlO_AZYJPPpHs0WkjEPx3H2xiT3KuCh1mh5g75CEWpROfo4WZZeqh2XJ8RyWHdr.png?r=483",
+            "starring": "Lindsay Lohan, Rachel McAdams, Tina Fey",
+            "duration": "1h 37m",
+            "genre": "Comedy",
+            "match": "88%",
+            "age": "13",
+            "year": 2004
+        },
+        {
+            "id": 4,
+            "type": "Movie",
+            "title": "The Devil Wears Prada",
+            "description": "A college grad discovers her own strength — and style — while suffering for success as an assistant to the tyrannical editor of a fashion magazine.",
+            "image": "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQT5WErCrhjw53ezxkQbph_KkP2pBSPKacc3r0cD1CcdkEQPv7CBVg_axMz5cKd_KsKEeq-V_HyVnMLHachQgnLGIOn_OAe2wu_1lPSXyYs9DZko4WEQXYnM56kEwl2YJ8HyF2oS6-F19P7y6kM13OUN7wN4.jpg?r=55c",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABd_KLD5sS09obtfd9BvzKEGmL-BnNUudaeBp0TPL9N3F370O67eVOzvA04buOKaRDX9av1KYHljuZeG-HA7b0Wn0aWW9TNU82i4x.jpg?r=4a0",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQ-RHZHt85CkHm0J8XVRK0bRCzadYMAGS2cqSPSCSiPQ_5vM1kclMW81C0iY3hZOLQkxuiVOymCWdLqX0uTlWddJSwrmovokmUM1dV_Aj2tW.png?r=b30",
+            "starring": "Anne Hathaway, Meryl Streep, Emily Blunt",
+            "duration": "1h 49m",
+            "genre": "Drama",
+            "match": "82%",
+            "age": "9",
+            "year": 2006
+        },
+        {
+            "id": 5,
+            "type": "Movie",
+            "title": "Girl, Interrupted",
+            "description": "An 18-year-old checks into a psychiatric hospital in the late 1960s and finds unexpected connections with the other women receiving treatment.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYqApwuxvDPifVsVIquYQqlKZ0RvETVZ0pthcMdSQcFr4w_bPiM84WiZV80vkyDBAKfRM-Ttl9B6Dw6n5_jSYDq2D8JAFdiNcfca.jpg?r=784",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbmTgERjoN0ivDB04lqvJ-2C0iMeP3fJ33vS9qICY5WNeDRWeef1vTNXAZDtsyGBM9fBoninJjyyA_9VEUftu6Oxow88axCeCMQV.jpg?r=9ae",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQToDSm5nE_vxHOudQR0lRqYiqknIrsZplFuY8NhH6OmI5F4Addr1ANABeqBNh_qyYm8mkCNnPFD_cEUyBrU7dkKep87idTB35YIL9j8zRy4.png?r=dcb",
+            "starring": "Winona Ryder, Angelina Jolie, Clea DuVall",
+            "duration": "2h 7m",
+            "genre": "Drama",
+            "match": "98%",
+            "age": "12",
+            "year": 1999
+        },
+        {
+            "id": 6,
+            "type": "Movie",
+            "title": "Notting Hill",
+            "description": "A chance encounter brings together reserved bookstore owner William Thacker and Hollywood icon Anna Scott, who forge an improbable romance.",
+            "image": "https://occ-0-999-444.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVGjXjoE_LjTZPV-Mqv1xQqPoodt-K1KBIV_jnRHBY5tYEnRLA-AY-GcWwpyrvF4ghJwCWsa5K_zm3FWWIkeM7VM0EVNYzhpCsLD.jpg?r=55d",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeUbTehiOCjTPY1EM1IsA0is5mf3QqJLw7OAww6GsTfNkX9rB_wr6JWuMxa1Sk06pM8dc9-MWWJOIN0-tfMMPXvWGNk_LyzTeC3A.jpg?r=0a4",
+            "titleImage": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABUqqNpowjq4O6ZjFe3G5jLJoeBaBb76MADYyTr-Zp5g9MfOvFvura98gDMWwQkuCpxVORWLnh5UPTxE_tpkZBR42fMdDD57pZQNAoXvA5kVy.png?r=80b",
+            "starring": "Julia Roberts, Hugh Grant, Rhys Ifans",
+            "duration": "2h 3m",
+            "genre": "Romance",
+            "match": "78%",
+            "age": "AL",
+            "year": 1999
+        },
+        {
+            "id": 7,
+            "type": "Show",
+            "title": "The Queen's Gambit",
+            "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction.",
+            "image": "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQe2OOEAhr5nAPNUI0wORP637W0k7hvcpDX40J6mup3ke1qqQ7Hqdy_i9qTdJQmX7Uv0S5CEC4hgT_-zPzEb8PRExMVImVKrJ8EeSzdMw73IFF4HdSfq_L9o78Lm9IhYboXqZJdP3WlYa3Q9E-wYlhoFUTHw.jpg?r=2c3",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcT9Ywd6_k-nbjZrXbw4a7omboATnwKeHahrlbRGosiOWUo96T-c2DEJV9MVYS-iijNimXVEOrRVOSxTPJt0-bCaCu-P2UZYAAtq.jpg?r=038",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABdVmh2pjIAJAtIIpa0Lc9KO9JayWWEMjckAb3rfwAiidXAEECqNKIrkQIHxG8ecLVQD3F4qunPrTr4y8y-cyKjVE72nz0ISk4BHk_ibye_0Hum7IgXm421gX9bDphddRjDeE278MZVFB-Wdq4asAgF5eKK0komTu6wf1b71gem-TbQvzDcSamA.png?r=a7f",
+            "starring": "Anya Taylor-Joy, Bill Camp, Marielle Heller",
+            "duration": "1 Season",
+            "genre": "Drama",
+            "match": "84%",
+            "age": "16",
+            "year": 2020
+        },
+        {
+            "id": 8,
+            "type": "Show",
+            "title": "Stranger Things",
+            "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWN8AkViFHvaTTH0C7fRRJCnLiYL3CtpbTdw&s",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS6v2gvwesuRN6c28ZykPq_fpmnQCJwELBU-kAmEcuC9HhWX-DfuDbtA-bfo-IrfgNtxl0qwJJlhI6DENsGFXknKkjhxPGTV-qhp.jpg?r=608",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYO7qfxROfC2zXPyp6FeMWAmk4j4JeAJDJA23UdvSeJ2-fJYDbHwWdE24Vrgp_JFtFNzwbnCvsgBxtwlS_4F1XdTTDaXLS-BZXTXJrS80YAFSZ263hbDqFhOaRYeO8TW0g4HpLQIhTQiJ_mQXxZpYt6H5eMYdA7SFABRAlwm85DjDCXEmk-VLQ.png?r=23b",
+            "starring": "Winona Ryder, David Harbour, Millie Bobby Brown",
+            "duration": "4 Seasons",
+            "genre": "Sci-Fi",
+            "match": "82%",
+            "age": "16",
+            "year": 2016
+        },
+        {
+            "id": 9,
+            "type": "Movie",
+            "title": "Ocean's Eleven",
+            "description": "Fresh out of prison, debonair thief Danny Ocean assembles a crew of specialists to pull off an elaborate heist of three Las Vegas casinos.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcUQfU7LOwH_u0Y_BU1taEkFQgwjEyUFxrurEbkG0vdFqNnP-zpSKTlkjy2oM-KOLAR9M8CinI1B8iocXNLvcc04pSraEcg2FtTT.jpg?r=382",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABd_eDnpD9WrC_7uOSWrcUWsJOocxitHImT_IWISI3x0b22odazLjhZnMak5dPZovRQNDAX-fU1Y_QbVkZ87DLYNASe7ZUMfptXdY.jpg?r=88d",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABbCSIXtibpwVNN6cZPBFDOsHQDroAX2CAEh1Bk_RujQrRveYgmpyyZ9fasmMG-FZ28mXPXQV7Suy9cxjiqA0us5DydZgNnJFiUdmsSuywqpz.png?r=3f9",
+            "starring": "George Clooney, Brad Pitt, Julia Roberts",
+            "duration": "1h 56m",
+            "genre": "Comedy",
+            "match": "91%",
+            "age": "12",
+            "year": "2001"
+        },
+        {
+            "id": 10,
+            "type": "Movie",
+            "title": "The Tourist",
+            "description": "After meeting on a train to Venice, a mysterious woman draws a mild-mannered American into a dangerous game of international intrigue.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABejsHi-I0uPm6SWk1-oMpwbttzC-BIv-It9goWR0opDU-C7HacU-omDWd97F2quGIoaAdsAliVyfUA0gluevVdiMZBOCHPTQ7Gr1.jpg?r=949",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWBFC6FyXGAaN0V8pPa1k5vQmA07aECOm-ZXl2GrnabuqjPmfJ1Vh4rJmvtlpLcccdFaft1ZB7Z3vadXqP_LgZrrgbUUpgYJnvVU.jpg?r=666",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZO80bACA0w6KTFsYPQHdtaTa6VkkAGz0aK_mp2lArGjabrmXL1fDQujQW6rA0rr3dTqO0sshFJ2Z6RFUb2MIAUJEkReACLM_1Ta--vnoi7A.png?r=2ba",
+            "starring": "Angelina Jolie, Johnny Depp, Paul Bettany",
+            "duration": "1h 43m",
+            "genre": "Action",
+            "match": "94%",
+            "age": "12",
+            "year": "2010"
+        },
+        {
+            "id": 11,
+            "type": "Movie",
+            "title": "Fight Club",
+            "description": "A disillusioned office worker finds an outlet for his pent-up feelings when he and mysterious new pal Tyler Durden start a violent underground society.",
+            "image": "https://occ-0-768-769.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXAcrOxq8vmvWiPd_Li3ZUu6bCUW0mT8X3PBnr8_xUAtB4bsLI1CKqcE9j8yM4zLMA9R_NzBNnxlwbxjT82utYYO0BsBph4YhkWy.jpg?r=748",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABarPUN0hHU86yIrm-7jgC0J84sg5bBpa2wl2EMOkY501wNKUzCIhPQcU0mbOJGAVJ009zfmkPDEmuisu7dQrAk_V3OdFiUp9cJzA.jpg?r=824",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfWkwe0jdw5GZT3yT5IFiJdipl8yopsqO3jl7nor1FYPZsDuBJjbxOvcD5iKeFDaFDUF7wpbsLwDRDzXnGvuDQITOcHn-kTg2_ZsXDSIIvoO.png?r=a93",
+            "starring": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+            "duration": "2h 19m",
+            "genre": "Thriller",
+            "match": "88%",
+            "age": "16",
+            "year": "1999"
+        },
+        {
+            "id": 12,
+            "type": "",
+            "title": "",
+            "description": "",
+            "image": "",
+            "backdrop": "",
+            "titleImage": "",
+            "starring": "",
+            "duration": "",
+            "genre": "",
+            "match": "",
+            "age": "",
+            "year": ""
+        }
+    ],
+    "navItems": [
+        {
+            "name": "Home",
+            "link": "index.html"
+        },
+        {
+            "name": "TV Shows",
+            "link": "shows.html"
+        },
+        {
+            "name": "Movies",
+            "link": "movies.html"
+        },
+        {
+            "name": "Recently Added",
+            "link": ""
+        },
+        {
+            "name": "My List",
+            "link": ""
+        }
+    ],
+    "listItems": [
+        {
+            "name": "KIDS"
+        },
+        {
+            "id": 0,
+            "name": "DVD"
+        }
+    ],
+    "buttons": [
+        {
+            "name": "Play",
+            "icon": "fa-solid fa-play"
+        },
+        {
+            "id": 0,
+            "name": "My List",
+            "icon": "fa-solid fa-plus"
+        }
+    ]
+}

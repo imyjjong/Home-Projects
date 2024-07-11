@@ -1,0 +1,33 @@
+@keyframes expand{
+    from{
+        width: 28rem;
+        height: 18rem;
+    }
+    to{
+        width: 48rem;
+        height: 28rem;
+    }
+}
+
+@mixin expand{
+    animation-name: expand;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes expandBack{
+    from{
+        width: 28rem;
+        height: 18rem;
+    }
+    to{
+        width: 48rem;
+        height: 28rem;
+    }
+}
+
+@mixin expandWidth{
+    animation-name: expandWidth;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}

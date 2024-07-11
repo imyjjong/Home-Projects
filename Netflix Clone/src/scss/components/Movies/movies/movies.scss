@@ -1,0 +1,64 @@
+@use "../../../abstracts/variables";
+
+.main__movies{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+    background: black;
+    box-shadow: 0 -1rem 8rem 4rem black;
+}
+
+.movies{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    &__category{
+        position: absolute;
+        top: -20%;
+        left: 5%;
+        font-size: 150%;
+        font-weight: 500;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        overflow: scroll;
+
+        &--link{
+            border: 0.3rem solid black;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:focus{
+                border: 0.3rem solid white;
+                outline: none;
+            }
+        }
+    }
+
+    &__movie{
+        height: 100%;
+
+        &--image{
+            width: 30rem;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
