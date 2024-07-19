@@ -35,7 +35,7 @@ class Shows{
 
             this.image = document.createElement("img");
             this.image.classList.add("show__image");
-            this.image.setAttribute("src", data.shows[i].image);
+            this.image.setAttribute("src", data.shows[i].cover);
             this.show.appendChild(this.image);
 
             this.information = document.createElement("div");
@@ -91,6 +91,83 @@ class Shows{
             this.arrowIcon = document.createElement("i");
             this.arrowIcon.classList = "fa-solid fa-chevron-down show__information--arrow-button";
             this.arrow.appendChild(this.arrowIcon);
+        }
+    }
+}
+
+class ShowsTV{
+    constructor(){
+        this.data = new Fetch();
+        this.createShows();
+    }
+    async createShows(){
+        this.heading = document.querySelector(".heading");
+        this.shows = document.createElement("section");
+        this.shows.classList.add("shows");
+        this.heading.appendChild(this.shows);
+
+        this.category = document.createElement("h3");
+        this.category.classList.add("shows__category");
+        this.category.innerText = "Top Picks For You";
+        this.shows.appendChild(this.category);
+
+        this.list = document.createElement("div");
+        this.list.classList.add("shows__list");
+        this.shows.appendChild(this.list);
+        
+        const data = await this.data.fetch();
+
+        for(let i = 0; i < data.shows.length; i++){
+            this.link = document.createElement("a");
+            this.link.classList.add("show__link");
+            this.link.setAttribute("href", "javascript:void(0)");
+            this.list.appendChild(this.link);
+
+            this.show = document.createElement("article");
+            this.show.classList.add("show");
+            this.link.appendChild(this.show);
+
+            this.image = document.createElement("img");
+            this.image.classList.add("show__image");
+            this.image.setAttribute("src", data.shows[i].poster);
+            this.show.appendChild(this.image);
+
+            this.wrapper = document.createElement("div");
+            this.wrapper.classList.add("show__wrapper");
+            this.link.appendChild(this.wrapper);
+
+            this.wrapperImage = document.createElement("img");
+            this.wrapperImage.classList.add("show__wrapper--image");
+            this.wrapperImage.setAttribute("src", data.shows[i].cover);
+            this.wrapper.appendChild(this.wrapperImage);
+        }
+        this.showFocus();
+    }
+    async showFocus(){
+        const data = await this.data.fetch();
+        this.getShows = document.getElementsByClassName("show__link");
+        this.id = localStorage.getItem("tvShow");
+        this.getShows[this.id].focus();
+        document.getElementsByClassName("show")[this.id].style.display = "none";
+        document.getElementsByClassName("show__wrapper")[this.id].style.display = "block";
+        for(let i = 0; i < this.getShows.length; i++){
+            this.getShows[i].onfocus = () => {
+                document.getElementsByClassName("show")[i].style.display = "none";
+                document.getElementsByClassName("show__wrapper")[i].style.display = "block";
+                console.log(data.shows[i]);
+                window.localStorage.setItem("tvShow", [i]);
+                document.querySelector(".heading__image").setAttribute("src", data.shows[i].backdrop);
+                document.querySelector(".heading__wrapper--title-image").setAttribute("src", data.shows[i].titleImage);
+                document.querySelector(".heading__wrapper--details-match").innerText = data.shows[i].match + " Match";
+                document.querySelector(".heading__wrapper--details-year").innerText = data.shows[i].year;
+                document.querySelector(".heading__wrapper--details-duration").innerText = data.shows[i].duration;
+                document.querySelector(".heading__wrapper--details-age").innerText = data.shows[i].age;
+                document.querySelector("heading__wrapper--description").innerText = data.shows[i].description;
+            }
+            this.getShows[i].onblur = () => {
+                document.getElementsByClassName("show")[i].style.display = "block";
+                document.getElementsByClassName("show__wrapper")[i].style.display = "none";
+            }
         }
     }
 }

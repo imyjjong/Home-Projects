@@ -1,0 +1,29 @@
+@use "../../../abstracts/variables";
+
+.more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    width: calc(100% - map-get(variables.$headerVars, "width"));
+
+    &__category{
+        font-weight: 400;
+        font-size: 200%;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1.2rem;
+        row-gap: 1.4rem;
+        flex-wrap: wrap;
+
+        &--image{
+            width: calc(25% - 1.2rem);
+
+        }
+    }
+}

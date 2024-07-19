@@ -8,4 +8,14 @@
 @use "components/Movies/movie/movie.scss";
 @use "components/Movies/movies/movies.scss";
 
+@use "components/Shows/show/show.scss";
+@use "components/Shows/episodes/episodes.scss";
+@use "components/Shows/more/more.scss";
+
 @use "components/footer/footer.scss";
+
+@use "abstracts/mediaqueries";
+
+@use "components/mediaqueries/tv.scss";
+@use "components/mediaqueries/mobile.scss";
+@use "components/mediaqueries/ipad.scss";

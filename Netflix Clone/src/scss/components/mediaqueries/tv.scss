@@ -1,0 +1,442 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/animations";
+@use "../../abstracts/mixins";
+
+@media screen and (min-width: 240rem){
+    .header{
+        position: fixed;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        width: 6%;
+        z-index: 10000;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        &__navigation{
+            padding: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 60%;
+
+            &--link{
+                color: map-get(variables.$baseVars, "greyColor");
+                font-size: 250%;
+                
+                &-active{
+                    border-bottom: 0.3rem solid map-get(variables.$netflixVars, "darkred");
+                }
+                &:focus{
+                    border-bottom: 0.3rem solid map-get(variables.$netflixVars, "darkred");
+                    outline: none;
+                }
+            }
+        }
+    }
+    .main{
+        // position: absolute;
+        // bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        //padding: 0 4rem 4rem 4rem;
+        gap: 2rem;
+    }
+
+    .heading{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+
+        &__image{
+            width: 80%;
+            object-fit: cover;
+        }
+
+        &__wrapper{
+            position: absolute;
+            top: 0;
+            left: 10%;
+            background: rgba(0, 0, 0, 0.8);
+            width: 30%;
+            height: 80%;
+            box-shadow: 0 0 10rem 10rem rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 4rem;
+            padding: 0 0 0 4rem;
+
+            &--title{
+                width: 100%;
+
+                &-image{
+                    width: 110%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            &--details{
+                width: 100%;
+                font-size: 280%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 2.5%;
+                color: map-get(variables.$baseVars, "greyColor");
+
+                &-match{
+                    @include mixins.match;
+                }
+
+                &-age{
+                    border: 0.2rem solid map-get(variables.$baseVars, "greyColor");
+                    padding: 0 1rem;
+                }
+            }
+
+            &--buttons{
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 6rem;
+
+                &-button{
+                    font-family: map-get(variables.$baseVars, "font");
+                    padding: 1rem 5rem;
+                    font-size: 300%;
+                    font-weight: 500;
+                    border-radius: 0.4rem;
+                    border: none;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                }
+
+                &-button:nth-of-type(1){
+                    background: map-get(variables.$baseVars, "color");
+                    color: map-get(variables.$baseVars, "background");
+
+                }
+
+                &-button:nth-of-type(2){
+                    background: rgba(255, 255, 255, 0.2);
+                    color: map-get(variables.$baseVars, "color");
+                }
+            }
+
+            &--description{
+                &-text{
+                    font-weight: 300;
+                    font-size: 330%;
+                }
+            }
+        }
+    }
+    
+    .shows{
+        position: absolute;
+        top: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: calc(100% - map-get(variables.$headerVars, "width"));
+        z-index: 1000;
+
+        &__category{
+            font-size: 450%;
+            font-weight: 400;
+        }
+
+        &__list{
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            gap: 3rem;
+            overflow: scroll;
+        }
+    }
+
+    .show{
+        width: 100%;
+        height: 100%;
+        transition: 2s all;
+
+        &:hover{
+            @include animations.nothing;
+        }
+        &__link{
+            width: 12.5%;
+            height: 65rem;
+            flex-shrink: 0;
+            overflow: hidden;
+            border-radius: 2rem;
+            
+            &:hover{
+                @include animations.nothing;
+            }
+            &:focus{
+                border: 1rem solid map-get(variables.$baseVars, "color");
+                width: auto;
+            }
+        
+
+        }
+
+        &__image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &__wrapper{
+            width: 100%;
+            height: 100%;
+
+            &--image{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .movieHeading{
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        &__image{
+            width: 65%;
+            object-fit: cover;
+        }
+
+        &__information{
+            position: absolute;
+            top: 0;
+            left: 10%;
+            background: map-get(variables.$baseVars, "background");
+            box-shadow: 0 0 22rem 22rem rgba(0, 0, 0, 0.95);
+            height: 100%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 4rem;
+            color: map-get(variables.$baseVars, "greyColor");
+
+            &--image{
+                width: 90%;
+                object-fit: cover;
+            }
+
+            &--wrapper{
+                width: 100%;
+                font-size: 300%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 4rem;
+                color: map-get(variables.$baseVars, "greyColor");
+
+                &-match{
+                    @include mixins.match;
+                }
+                &-age{
+                    border: 0.2rem solid map-get(variables.$baseVars, "greyColor");
+                    padding: 0 1.4rem;
+                }
+            }
+
+            &--description{
+                font-size: 350%;
+                line-height: 6rem;
+            }
+
+            &--details{
+                font-size: 290%;
+                line-height: 4.5rem;
+                font-style: italic;
+            }
+        }
+    }
+
+    .movies{
+        z-index: 1000;
+        position: absolute;
+        top: 100%;
+        width: calc(100% - map-get(variables.$headerVars, "width"));
+        height: 25%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        &__category{
+            font-size: 350%;
+        }
+
+        &__list{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 2rem;
+            overflow: scroll;
+        }
+
+        &__link{
+            width: 100%;
+            height: 100%;
+
+            &:focus{
+                border: 0.4rem solid map-get(variables.$baseVars, "color");
+            }
+        }
+    }
+    .movie{
+        height: 100%;
+
+        &__image{
+            width: 80rem;
+            object-fit: cover;
+        }
+    }
+
+    .seriesHeading{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+
+        &__image{
+            width: 90%;
+            object-fit: cover;
+        }
+
+        &__information{
+            background: rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 8rem 12rem rgba(0, 0, 0, 0.4);
+            position: absolute;
+            top: 0;
+            left: 10%;
+            width: 50%;
+            height: 100%;
+            font-size: 300%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 6rem;
+
+            &--wrapper{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                gap: 3rem;
+
+                &-details{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 4rem;
+                    color: map-get(variables.$baseVars, "greyColor");
+                }
+                &-match{
+                    @include mixins.match;
+                }
+                &-age{
+                    background: map-get(variables.$baseVars, "ageGrey");
+                    color: map-get(variables.$baseVars, "color");
+                    padding: 0 3rem;
+                    font-weight: 600;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 5.8rem;
+                    border-radius: 1rem;
+                }
+            }
+            &--description{
+                width: 70%;
+
+                &-title{
+                    font-size: 120%;
+                    font-weight: 500;
+                }
+
+                &-text{
+                    color: map-get(variables.$baseVars, "greyColor");
+                    font-size: 110%;
+                }
+            }
+        }
+
+        &__options{
+            width: 60%;
+            height: 50%;
+            font-size: 120%;
+            padding: 2rem;
+
+            &--link{
+                text-decoration: none;
+                color: map-get(variables.$baseVars, "greyColor");
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 3rem;
+                padding: 0.4rem 1rem;
+                border: 0.6rem solid transparent;
+
+                &:focus{
+                    color: map-get(variables.$baseVars, "color");
+                    outline: none;
+                    border: 0.6rem solid map-get(variables.$baseVars, "color");
+                    box-shadow: 0 0 0.1rem 0.1rem map-get(variables.$baseVars, "color");
+                }
+            }
+        }
+    }
+
+    .episodes{
+        background: red;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+    }
+    
+}
+
+// &:hover{
+//     @include animations.nothing;
+//     margin: 0 20rem;
+//     transform: scaleX(1.9);
+//     //display: none;
+    
+// }
+// &:hover &__wrapper{
+//     display: block;
+// }

@@ -6,14 +6,16 @@
             "title": "Dynasty",
             "description": "In high-society Atlanta, staying rich means playing dirty for two affluent families caught in an outrageous feud for power, prestige and love.",
             "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe0nVlDiXZxKiK7av0UI8OpInY3s3bdpsZNQAnBgNKQUhzqIvkkZZW7m9r8e2MVFy8xWFYoD7H559nK0fRT79Zy-8wt1otnEZi9yb23ifOcHLw9a0O76p8Xs.jpg?r=d66",
-            "backdrop": "https://resizing.flixster.com/wXBSC7jaUG0rnBqyGM2Z2vQ8k6g=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14167080_b_h9_aw.jpg",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeOVzKnhOs14cmNTdQWaVSJput5HrY8sVs_T65WNDuNgXqxiRfVPgT6N5tIY4EqWsoYcNAYrr6qpLjpRJ8pQfEkRhHMLIH49bmNP.jpg?r=b94",
             "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABUTT6x9rAaR5M0OtzUEh8R3S6AZk_p841b2no9rP0-0PNSo0bcqixgOjeexMRaj5leCx-QCuXqDOeUbyloqNkoK_huX3QZDTTN7t1O5dKvq4Iicavs7bYU5lbZtmrACn5jnagCSgt-M2E_nLVaWgadm-JSNpZibIiWH3SNibElZGm0a9BS_VLQ.png?r=5c8",
             "starring": "Elizabeth Gillies, Grant Show, Rafael De La Fuente",
             "duration": "5 Seasons",
             "genre": "Drama",
             "match": "99%",
             "age": "12",
-            "year": 2017
+            "year": 2017,
+            "cover": "https://ntvb.tmsimg.com/assets/p19575866_b_h8_aa.jpg?w=960&h=540",
+            "poster": "https://resizing.flixster.com/ZVfmDvPP0kPG_kiarHyiBKtT7M4=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19575866_b_v13_aa.jpg"
         },
         {
             "id": 1,
@@ -28,7 +30,9 @@
             "genre": "Drama",
             "match": "97%",
             "age": "16",
-            "year": 1994
+            "year": 1994,
+            "cover": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSGtv55T_iUdTa9fXCVk1jXTwYT3kd0SsILKwz_Yb_LI17SXTaRH2vyTXM0A9Syjlex2e5WphqXRyIHMRI5mBuxVAxyA28RQ8uTs.jpg?r=3b9",
+            "poster": "https://occ-0-1926-41.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABVhIqkyKbvwNp7B5LlqHBfsn7s-qYDFIhLB6da4ACmZAIHEmHtFrBXddz_F6REA-tDoeUn2aBgOwbLA21aND0WL7Xl0G.jpg?r=559"
         },
         {
             "id": 2,
@@ -43,7 +47,9 @@
             "genre": "Action",
             "match": "89%",
             "age": "PG-13",
-            "year": 2012
+            "year": 2012,
+            "cover": "https://occ-0-999-444.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUmru1tevJgXYF0Hlldf0087Agg-BnOMlXZ8Ry5EfAEIFlmwjRU2bDqlq4TNKce1uGZy8qz6OX6VInYGD6UdsUCUrzdmb1fM6VPH.jpg?r=632",
+            "poster": "https://occ-0-114-116.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABZdkuFE_UBxMALedMGxzA-IJojU7_HftvetbQ51Inq2vN747M1RlsEOWcZqh2gERB8AyeUseofqLu4tK8dhxAvafuqoneoXdxGqU.jpg"
         },
         {
             "id": 3,
@@ -58,7 +64,9 @@
             "genre": "Comedy",
             "match": "88%",
             "age": "13",
-            "year": 2004
+            "year": 2004,
+            "cover": "https://cdn.apollo.audio/one/media/6011/4521/bb9b/acd2/d323/e668/mean-girls-netflix.jpg?quality=80&format=jpg&crop=24,45,840,1500&resize=crop",
+            "poster": "https://nieuwdezeweek.nl//media/cache/cf/df/cfdf834f13dfd969dde95b8cbb758f30.jpg"
         },
         {
             "id": 4,
@@ -73,7 +81,9 @@
             "genre": "Drama",
             "match": "82%",
             "age": "9",
-            "year": 2006
+            "year": 2006,
+            "cover": "https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTcYnUSnOs_EDUXUMjPftGEbUSL2jY6q8AYxWYtJD3Kx9_c8NrTHhf-2ikdEHFjy5JL9OdhHBV0Lfm8yfgJ8wyxLHNpGj1_PnUlz.jpg?r=3e8",
+            "poster": "https://occ-0-746-1007.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABaOKaTGClGVz76byZFI03So42FNBFHa4DaVgYNLFqpk631SmJf-a8BO7ly2WWmkKExUbwzAEpiPIZpcvTO_MiXDYcbLHsdniqiSFTGNcue2GOXA1qbLEW-vWz6IYkl2hc-PZxIl8xDFYn_Wk_j84INRv-C8G5hyI7aj9UayhzyDIuiJ61neaG8HRGEI3RJ9bVcfycZW3LowFisF7nOshwoORzocqE2hyWqWi9qyP7yhJ8bVZqvVI0vi3atw_ru2pfQUCDouVGkEj_0orpt1wDtCordiS8g.jpg"
         },
         {
             "id": 5,
@@ -88,7 +98,9 @@
             "genre": "Drama",
             "match": "98%",
             "age": "12",
-            "year": 1999
+            "year": 1999,
+            "cover": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYqApwuxvDPifVsVIquYQqlKZ0RvETVZ0pthcMdSQcFr4w_bPiM84WiZV80vkyDBAKfRM-Ttl9B6Dw6n5_jSYDq2D8JAFdiNcfca.jpg?r=784",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzdjZDYwM2QtMGNlZS00MGQzLTlhMjctYTU4NWI5MWJlYmQwXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "id": 6,
@@ -103,7 +115,9 @@
             "genre": "Romance",
             "match": "78%",
             "age": "AL",
-            "year": 1999
+            "year": 1999,
+            "cover": "https://occ-0-999-444.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVGjXjoE_LjTZPV-Mqv1xQqPoodt-K1KBIV_jnRHBY5tYEnRLA-AY-GcWwpyrvF4ghJwCWsa5K_zm3FWWIkeM7VM0EVNYzhpCsLD.jpg?r=55d",
+            "poster": "https://nieuwdezeweek.nl/media/cache/e5/70/e5706c6d0c6f87094fb2c9f2c4fff9df.jpg"
         },
         {
             "id": 7,
@@ -118,7 +132,9 @@
             "genre": "Drama",
             "match": "84%",
             "age": "16",
-            "year": 2020
+            "year": 2020,
+            "cover": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABed0PyWGsrRYL8be66Lydw0ZgEyUcTaJWmyRSLG7eobnJP1lJInJrnCV0PnPxdc47SqMrpGTNHGRLp8MD__Ty5s74BVgDixSq4UUeBJoJ0uDjYsrT31t0VcQkRZu7MBeS24X.jpg?r=069",
+            "poster": "https://m.media-amazon.com/images/M/MV5BM2EwMmRhMmUtMzBmMS00ZDQ3LTg4OGEtNjlkODk3ZTMxMmJlXkEyXkFqcGdeQXVyMjM5ODk1NDU@._V1_.jpg"
         },
         {
             "id": 8,
@@ -129,11 +145,13 @@
             "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS6v2gvwesuRN6c28ZykPq_fpmnQCJwELBU-kAmEcuC9HhWX-DfuDbtA-bfo-IrfgNtxl0qwJJlhI6DENsGFXknKkjhxPGTV-qhp.jpg?r=608",
             "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYO7qfxROfC2zXPyp6FeMWAmk4j4JeAJDJA23UdvSeJ2-fJYDbHwWdE24Vrgp_JFtFNzwbnCvsgBxtwlS_4F1XdTTDaXLS-BZXTXJrS80YAFSZ263hbDqFhOaRYeO8TW0g4HpLQIhTQiJ_mQXxZpYt6H5eMYdA7SFABRAlwm85DjDCXEmk-VLQ.png?r=23b",
             "starring": "Winona Ryder, David Harbour, Millie Bobby Brown",
-            "duration": "4 Seasons",
+            "duration": 4,
             "genre": "Sci-Fi",
             "match": "82%",
             "age": "16",
-            "year": 2016
+            "year": 2016,
+            "cover": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABc_QuOdHzJa9WwBiBlfEvpcFRKq9TAIgdJv0KoSilQZ8JMEsdCdQS4VGD6gwVg2CYCYNhTJIald5uVsXbMf-3QaF1k1fnFRbovQr6ddWUtkSOUzil_dtlD1wOIeD_pSI6pAx.jpg?r=c68",
+            "poster": "https://m.media-amazon.com/images/I/71G-tfnx9DL._UF1000,1000_QL80_.jpg"
         },
         {
             "id": 9,
@@ -148,7 +166,9 @@
             "genre": "Comedy",
             "match": "91%",
             "age": "12",
-            "year": "2001"
+            "year": 2001,
+            "cover": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABevnk0Fcrv5iaq90TR90P-YEhJqyWhanjQsTURuizCWffCHURykoJ-lRqc_lD5WSsWmPDEhsfPoFftDAyKjdrRQKx3A5114uGAyH.jpg?r=b70",
+            "poster": "https://pics.filmaffinity.com/Ocean_s_Eleven-607328113-large.jpg"
         },
         {
             "id": 10,
@@ -163,7 +183,9 @@
             "genre": "Action",
             "match": "94%",
             "age": "12",
-            "year": "2010"
+            "year": 2010,
+            "cover": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABejsHi-I0uPm6SWk1-oMpwbttzC-BIv-It9goWR0opDU-C7HacU-omDWd97F2quGIoaAdsAliVyfUA0gluevVdiMZBOCHPTQ7Gr1.jpg?r=949",
+            "poster": "https://nieuwdezeweek.nl//media/cache/c2/1e/c21e3555218f154d4bd7dab9107bdb51.jpg"
         },
         {
             "id": 11,
@@ -178,22 +200,94 @@
             "genre": "Thriller",
             "match": "88%",
             "age": "16",
-            "year": "1999"
+            "year": 1999,
+            "cover": "https://art-s.nflximg.net/a26d4/f7634652a646c32709f892f81c558e42c37a26d4.jpg",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
         },
         {
             "id": 12,
-            "type": "",
-            "title": "",
-            "description": "",
-            "image": "",
-            "backdrop": "",
-            "titleImage": "",
-            "starring": "",
-            "duration": "",
-            "genre": "",
-            "match": "",
-            "age": "",
-            "year": ""
+            "type": "Show",
+            "title": "The Big Bang Theory",
+            "description": "Physicists Leonard and Sheldon find their nerd-centric social circle with pals Howard and Raj expanding when aspiring actress Penny moves in next door.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQ3xPpRj8bZxGdXObJKsPwQNi5wnDFdzMp7rXGsDUEJvAULdXstF0Q8VA5ns2rRpfbbxNbm3gORMSYTb43u4_4XWY32hHnedN16MLi0Jn83IB1FZ_7yLXPKZ.jpg?r=1ae",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRDS_RbHz6Y4UXZSgKb34YE2iTfVnmXTGY9jNslUpQbV_fGpRCJ1mjzSFGLnBf3KwPCufAuUGv-wZsDqprTPQq6g7TG0h2lkYsAL_UBkG3KmV9jAdNKRAF7s.jpg?r=564",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABbny4yaqV9fKAql47J0LdqEHOXAeaOv_nAZAgbDyA7lRXPRkCUvJrDQpLM7E9bdlUjY2K7F6BAuhxgGAj0pC8z0HA-e4gEeZYbeWARUmuKME.png?r=554",
+            "starring": "Johnny Galecki, Jim Parsons, Kaley Cuoco",
+            "duration": "12 Seasons",
+            "genre": "Comedy",
+            "match": "99%",
+            "age": "14",
+            "year": 2007,
+            "cover": "https://www.whats-on-netflix.com/wp-content/uploads/2018/11/the-big-bang-theory-season-12-netflix-uk-oct-1.jpg",
+            "poster": "https://static.posters.cz/image/1300/art-photo/big-bang-theory-bende-i106240.jpg"
+        },
+        {
+            "id": 13,
+            "type": "Show",
+            "title": "The Office (U.S.)",
+            "description": "This hit comedy chronicles the foibles of disgruntled office workers -- led by deluded boss Michael Scott -- at the Dunder Mifflin paper company.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTHp3PoZEGFdJFt5vZZ1OL0VY7ZYO0XMRFZKzZNC7gcflzZIZPZ6jOT7M-HiFKsJbPsHzXA5ea52wjFmITJ7-zHsz2DsahFFy6j0sMUBv67vmgtSUhk3Usee.jpg?r=064",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfApDcrgA0jCJTrLozGkE75qU_acLJsF73Bgj34hXpX27ghol-BWMGe6BQYG-dEin_L2YraEkgXmcUlIwW5LFPZNeTSwikEjRlWjXDPNZxDDvZMp1H2Ej5ox.jpg?r=322",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQsqV_W56RzpQ0ZyEntjm1HoN1Sdcb1S5N-Ji6wQEvgIXE97-OSG0seRFfk4f_95JcUCvXkAVe_2Qdj5B0JejFOBuQSLG5UhsrhNKt_FsJp5.png?r=81f",
+            "starring": "Steve Carell, John Krasinski, Jenna Fischer",
+            "duration": "9 Seasons",
+            "genre": "Comedy",
+            "match": "94%",
+            "age": "6",
+            "year": 2005,
+            "cover": "https://www.serienjunkies.de/assets/images/33/4/33004594-the-office-nbc-3cfe.jpg",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
+        },
+        {
+            "id": 14,
+            "type": "Movie",
+            "title": "The Hunger Games",
+            "description": "In a dystopian future, teens Katniss and Peeta are drafted for a televised event pitting young competitors against one another in a fight to the death.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABep8gEQy_8gV_I2-2Eu8zxafRhwyh7ba7U4ELvgbVGePcs0FRUiSgftEL0TLORVc_pETbZacobrgV4x92CyJp4Ct4v7qat7HRdXn.jpg?r=f1b",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZgwIVrtZI5GdXlFpX9E1EVFVuf64CZdaWWzn4iF2cYlEmmDrP88mex2ZaM1KTilf-3WlUIzd4JTV0xYHh_n9xfmA4dB1-KoN8fi.jpg?r=456",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfyq---ad_GGe0BKl7J2hFmCLDugb6ym7Hv8Ch6tZ4NgUBFyLs5dVg0rsEbi6D5raWExmEVOFTt2yTS_ejQI0ZqVgtI4GbARt1IAlsLax0xl.png?r=6bf",
+            "starring": "Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth",
+            "duration": "2h 22m",
+            "genre": "Action",
+            "match": "81%",
+            "age": "12",
+            "year": 2012,
+            "cover": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfGrGD2obq-WPA2bAqpw0iqB_X1D-_XJ0FGj2ko7ll9CrNrJDlkBbgzScGrpwVWPyXITgzI7D4PAdpu2NyyWxQ2_mcyRcHTtxtBj.jpg?r=d2b",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZWI1OWM3ZmEtNjQ2OS00NzI2LTgwNWMtZDAyMGI1OTM2MzJmXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg"
+        },
+        {
+            "id": 15,
+            "type": "Show",
+            "title": "You",
+            "description": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe_zz5enc72KxT5RrhxI-9vfSIOfNovnZSvymV8OBkBeQMcUlQybluw0VMTQEnwe7s3njeN2P9xHS2i604tNjX1lyTcn7SjwW_DEZIpgr4WHbhWj3hW6Udh2hw.jpg?r=c93",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeE5aUmHWj89_q9UHyBNlBx0GRZ86HOvwl58WUBx36SkFCtNdlVjYGefBnnldJTutXJPQPDQD7dUOJtKZIyvY5rHeravAOuI2RO_.jpg?r=c9f",
+            "titleImage": "https://occ-0-114-116.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABbbK7ZHWgZzqF3r2tGzEvr31l6iNl3jAZRCh5cf-z6B1n6r1objbSb30sMv2mM_klsIO3UBEUvjfditr4-UP49JvHlXE-UDCnzkmqB4fKFf1h7aSIVx936n91A6nx8bBj5htbuk7-VcvS5mH4bSu1U6qkcvV6mF7TqdIyWiSzkQqWgKI_wIpsw.png?r=8c1",
+            "starring": "Penn Badgley, Victoria Pedretti, Elizabeth Lail",
+            "duration": "4 Seasons",
+            "genre": "Thriller",
+            "match": "84%",
+            "age": "16",
+            "year": 2018,
+            "cover": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYVUbp408QwwiodFOl_rlKvBznSSBsWvAIV5VgGAps4ZMUHKopVI5GwtB3rUCDLVh0l9zjsXDkG_0rpgKdIhAHhhaCcYn_6ekG5ys3FAZhKOnvgrzdlc5Sn-qtMxa2Xqnz87FQ.webp?r=1ff",
+            "poster": "https://i.pinimg.com/originals/88/43/1a/88431a9ed1430dd5359e13002b24c824.jpg"
+        },
+        {
+            "id": 16,
+            "type": "Movie",
+            "title": "The Breakfast Club",
+            "description": "The athlete, the brain, the bully, the princess and the loner break through the social barriers of high school during a Saturday in detention.",
+            "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYR6eh4wCZO39NT3_IMyL1DdcrNfcgOWRsMrWwQNms3yc8DymqR50Bj-wivi6uGyaAWlJRrgE6wuhuH_PWgQRI3pNeueWvR_eXqI.jpg?r=b9c",
+            "backdrop": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYR6eh4wCZO39NT3_IMyL1DdcrNfcgOWRsMrWwQNms3yc8DymqR50Bj-wivi6uGyaAWlJRrgE6wuhuH_PWgQRI3pNeueWvR_eXqI.jpg?r=b9c",
+            "titleImage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZBlpS3GthrXam1zaSXz-HWBs_mXkWFXxHEX8H6Kyy_PPyoHF0qHmSnVUjYKHC-tvDkyhTHTXr5nZc1eC9Rua0oa3myv_YHPC571iIbTooN6.png?r=8a1",
+            "starring": "Emilio Estevez, Anthony Michael Hall, Judd Nelson",
+            "duration": "1h 37m",
+            "genre": "Comedy",
+            "match": "92%",
+            "age": "16",
+            "year": "1985",
+            "cover": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABaaXHvmklh7D24tkF3udi1chXf38N90GV9ZObXr-SkMW7RME-Ax3D4kx81cU2uz8McUDx8SznacxhZ83dHD0aYMY4lVo-EqUYG4_.jpg?r=80d",
+            "poster": "https://m.media-amazon.com/images/M/MV5BOTM5N2ZmZTMtNjlmOS00YzlkLTk3YjEtNTU1ZmQ5OTdhODZhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
         }
     ],
     "navItems": [
@@ -223,7 +317,6 @@
             "name": "KIDS"
         },
         {
-            "id": 0,
             "name": "DVD"
         }
     ],
@@ -233,9 +326,343 @@
             "icon": "fa-solid fa-play"
         },
         {
-            "id": 0,
             "name": "My List",
             "icon": "fa-solid fa-plus"
+        }
+    ],
+    "episodes": [
+        {
+            "season": 1,
+            "episode": 1,
+            "title": "1. Chapter One: The Vanishing of Will Byers",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYtfkVLxw6lawtNwtIyOhLDnTEXi2AvuyqYG3i-jZ3Y1mrRsZCJAt8mcAxiZqZHQvCS2pl4StiieJUrohIS70br7yzenTsQqVgsVKq3C5A8vuoL_GstEWeB7.jpg?r=d74",
+            "description": "On his way home from a friend's house, young Will sees something terrifying. Nearby, a sinister secret lurks in the depths of a government lab.",
+            "duration": "49m"
+        },
+        {
+            "season": 1,
+            "episode": 2,
+            "title": "2. Chapter Two: The Weirdo on Maple Street",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQtwsxsHgdgWIND4fSpPITza0IkQHiqZDXdeVicRWtG9JhFAws01znsKfW8XeqW_2WWBmJpqpnmdN9b7uOy3ePJ2P0Rb30PJsTNGWkXTV0aFZDawHX8kIN3Z.jpg?r=cc9",
+            "description": "Lucas, Mike and Dustin try to talk to the girl they found in the woods. Hopper questions an anxious Joyce about an unsettling phone call.",
+            "duration": "56m"
+        },
+        {
+            "season": 1,
+            "episode": 3,
+            "title": "3. Chapter Three: Holly, Jolly",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfvDB1xGZuh-SkB7WccIvvvpGTvyOaoYqtePmpAV3pfCbB01RJbg2srq_yIL9UXu-tvyPH9oHIPbiXRfUsL8P7d7LLHxwZeSGpen3Bwyw7gCzFO0XYaBPOku.jpg?r=8da",
+            "description": "An increasingly concerned Nancy looks for Barb and finds out what Jonathan's been up to. Joyce is convinced Will is trying to talk to her.",
+            "duration": "53m"
+        },
+        {
+            "season": 1,
+            "episode": 4,
+            "title": "4. Chapter Four: The Body",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdzKIQH8A3SQH-wskeLalpim9WLRgzXj5TzEG0cg2K3IFnKGvjqJYguqdHfUXwod-Wt70H_mkWlcx3_25eD3ZuywDNnlz0uM_5stE7pFhrg3lIMhbTW7ubMc.jpg?r=6ad",
+            "description": "Refusing to believe Will is dead, Joyce tries to connect with her son. The boys give Eleven a makeover. Nancy and Jonathan form an unlikely alliance.",
+            "duration": "51m"
+        },
+        {
+            "season": 1,
+            "episode": 5,
+            "title": "5. Chapter Five: The Flea and the Acrobat",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQ4GYyP7zd6_FkLaO3FRYw0Zxvi71gu1R3Jg7HNIpg9uUYIvL_UxeUKWTWJPqYjdsd5RL_fmg_tJKKs6rlzsyalFS7XlIcaHm8rskzSkWaQZDCbjWhAg92TP.jpg?r=6d4",
+            "description": "Hopper breaks into the lab while Nancy and Jonathan confront the force that took Will. The boys ask Mr. Clarke how to travel to another dimension.",
+            "duration": "54m"
+        },
+        {
+            "season": 1,
+            "episode": 6,
+            "title": "6. Chapter Six: The Monster",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZYtlWKeXj822vSsWsZwbfTqlG7q6IHCc3rpBErf6KCNifHLs6uQpbQn-qxpeJ3sXuRIRTTR3B8LXLEqyJ-1nPayOq_k4HwmOMC6tXcoc5KT0b8jXvG-zb92.jpg?r=3df",
+            "description": "A frantic Jonathan looks for Nancy in the darkness, but Steve's looking for her, too. Hopper and Joyce uncover the truth about the lab's experiments.",
+            "duration": "48m"
+        },
+        {
+            "season": 1,
+            "episode": 7,
+            "title": "7. Chapter Seven: The Bathtub",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcTY1K2KcB54vDJTTv0wsTJvwqqGPSQszqMMsE0yj5UX2ye5XxYQcZ4J1SUtfJeOCAJYaV6DAfSyql_lCjs5RK2S28UHNWdwdSVj4RMdSS4mRntXgebiHiPB.jpg?r=779",
+            "description": "Eleven struggles to reach Will, while Lucas warns that 'the bad men are coming.' Nancy and Jonathan show the police what Jonathan caught on camera.",
+            "duration": "43m"
+        },
+        {
+            "season": 1,
+            "episode": 8,
+            "title": "8. Chapter Eight: The Upside Down",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABawN4HxPOBDfKODu0UjV0_56nLnOLWH96o046h8MUtHcEb5OjoWlTL0DaE3nJfC4gwPY5_qB6LoKvOhmUnIoxY_t5x11g4T281G9CN44T9HF1ustK91mBxfE.jpg?r=4b6",
+            "description": "Dr. Brenner holds Hopper and Joyce for questioning while the boys wait with Eleven in the gym. Back at Will's, Nancy and Jonathan prepare for battle.",
+            "duration": "56m"
+        },
+        {
+            "season": 2,
+            "episode": 1,
+            "title": "1. Chapter One: MADMAX",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfGl7iOpUWxbZX4v-9podLPvnUQ2eHXrT6iZVRk_NHSa5ceLabrVZ-fW9f6lpu4kQ83yoJrzHQ7LqOj84O02TPpKm7fPeh8MPxyS2RS0OdGiV8Wn9SbDLEKN.jpg?r=9e5",
+            "description": "As the town preps for Halloween, a high-scoring rival shakes things up at the arcade, and a skeptical Hopper inspects a field of rotting pumpkins.",
+            "duration": "49m"
+        },
+        {
+            "season": 2,
+            "episode": 2,
+            "title": "2. Chapter Two: Trick or Treat, Freak",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdZxa7A0DpELqqTHt2-gw3u4mzb4J-UgElRRETBQT0FP1fMen1NWjNRYNrlSL7UKYOD4MSnP7mnPh_N7Ey9-87j2abDLmV4yR-oFN-wyskDwZqvGwgfzOrVf.jpg?r=2e8",
+            "description": "After Will sees something terrible on trick-or-treat night, Mike wonders whether Eleven's still out there. Nancy wrestles with the truth about Barb.",
+            "duration": "57m"
+        },
+        {
+            "season": 2,
+            "episode": 3,
+            "title": "3. Chapter Three: The Pollywog",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABckUrMz4x0MMw37XbJkDhHwdg-v1Jn0wrXdkn-kG1YPMHUJwnBpqlAN3vhH1dtCfvToRBo87qIp2lDQ4xoo_mDgIycasDRlyHcrP_gLrg_8TYXmdPWcU4uIA.jpg?r=cfc",
+            "description": "Dustin adopts a strange new pet, and Eleven grows increasingly impatient. A well-meaning Bob urges Will to stand up to his fears.",
+            "duration": "52m"
+        },
+        {
+            "season": 2,
+            "episode": 4,
+            "title": "4. Chapter Four: Will the Wise",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbn1Dn8gafibw0DnObLzaUBSAMYWu4bw0JKRQTzZTmyb4DNKIds3UpJF8PuAhQ6jD8DtGhFtjA9linFc0GNZhODYHupkhfa0q5b_Bz4DvcLSZCaU_D-rV6TW.jpg?r=cb5",
+            "description": "An ailing Will opens up to Joyce -- with disturbing results. While Hopper digs for the truth, Eleven unearths a surprising discovery.",
+            "duration": "47m"
+        },
+        {
+            "season": 2,
+            "episode": 5,
+            "title": "5. Chapter Five: Dig Dug",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeCQY5PFCf-9i80BvvUcrm-Je98KCgBmpsJoPvUvpt9__OKgyYLAmzXB_L1KucFgYVO6QEFsy2BhxixjGh6Pn4K4CsWnsZ9fz7CPf2hF5VVeU4OdwaCe0bRP.jpg?r=e06",
+            "description": "Nancy and Jonathan swap conspiracy theories with a new ally as Eleven searches for someone from her past. “Bob the Brain” tackles a difficult problem.",
+            "duration": "59m"
+        },
+        {
+            "season": 2,
+            "episode": 6,
+            "title": "6. Chapter Six: The Spy",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQAh8NhhUsoKjqH4f7jX_4V-JKAmKwk5-IcCxQQFaNoyVkTFWXMWHeiwLJcxW6tWR7UA1LQQKpLpZmRZaS2tzbxj-flAW4O7QtTfVty8nEcwf6LDCHR1YFSR.jpg?r=bf6",
+            "description": "Will's connection to a shadowy evil grows stronger, but no one's quite sure how to stop it. Elsewhere, Dustin and Steve forge an unlikely bond.",
+            "duration": "53m"
+        },
+        {
+            "season": 2,
+            "episode": 7,
+            "title": "7. Chapter Seven: The Lost Sister",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaUzslzuQDL-xU1_1vsnm-EGWp6vHTCZP5sf5wuAGOLiEFbtdWtuPEJcBSQp29B5NrfRj8woaIjhY4EBnhZ0WqjPfuNd6r3VPxQz5SmO8XknKKZaegUWB2s5.jpg?r=db8",
+            "description": "Psychic visions draw Eleven to a band of violent outcasts and an angry girl with a shadowy past.",
+            "duration": "46m"
+        },
+        {
+            "season": 2,
+            "episode": 8,
+            "title": "8. Chapter Eight: The Mind Flayer",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdwFfY9EdXWBOXx2Gc1xpvSkGV7xMcIvjyrLj1qsXM7f0oCALgcvqzJiojzZoZyuaItYV1KeGxgZTcYevJsECyFcm4aNT7rFlomaP7-q1rGJ69flLrxFOil8.jpg?r=54c",
+            "description": "An unlikely hero steps forward when a deadly development puts the Hawkins Lab on lockdown, trapping Will and several others inside.",
+            "duration": "49m"
+        },
+        {
+            "season": 2,
+            "episode": 9,
+            "title": "9. Chapter Nine: The Gate",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfm7J-tXMEEb2dKAhbXiJ2BnOWOJxvqgwlObcqSXXapMBjGAwrIrJeQBgeRX0ePrtDOSBFEKZtvBw3joM7jTrRnc9cktqq03nQGC-JktFKy0a-Z13oE8N_VT.jpg?r=956",
+            "description": "Eleven makes plans to finish what she started while the survivors turn up the heat on the monstrous force that's holding Will hostage.",
+            "duration": "63m"
+        },
+        {
+            "season": 3,
+            "episode": 1,
+            "title": "1. Chapter One: Suzie, Do You Copy?",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeTs2GNdhDwK4Orz3xPMevpzVIkKBmuWAWwewJUJfCunE1uBPq54d52z2JUo6qJzy-wA5IUWZZIu13x8sPS7Wzez7saFJ07M_JPTBqNPbaIOCXRRtwmBzio0.jpg?r=8c4",
+            "description": "Summer brings new jobs and budding romance. But the mood shifts when Dustin's radio picks up a Russian broadcast, and Will senses something is wrong.",
+            "duration": "51m"
+        },
+        {
+            "season": 3,
+            "episode": 2,
+            "title": "2. Chapter Two: The Mall Rats",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUuiExDRxNvdIIcBfMgaizzQ0N7mfv7gyxxvP6_J_-1SpIM1_aL4c9ScEBHdqJb0558tXoWqRZw6M8lmpxyB8chGzJAUW4tnm_-14m5ddyPw0A18qOgQfRXF.jpg?r=573",
+            "description": "Nancy and Jonathan follow a lead, Steve and Robin sign on to a secret mission, and Max and Eleven go shopping. A rattled Billy has troubling visions.",
+            "duration": "51m"
+        },
+        {
+            "season": 3,
+            "episode": 3,
+            "title": "3. Chapter Three: The Case of the Missing Lifeguard",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUBIA-NAFuZ0AxW93uzQldbVpqNiCA4ExSRjD81_DMkeaYmvUJrI2aPb-cHysLjpEsRv0T9oIYq4YZ8lJUcHRmWbU74zY9aFuODSUQCOxPr_mWSevn3-ZGje.jpg?r=205",
+            "description": "With El and Max looking for Billy, Will declares a day without girls. Steve and Dustin go on a stakeout, and Joyce and Hopper return to Hawkins Lab.",
+            "duration": "51m"
+        },
+        {
+            "season": 3,
+            "episode": 4,
+            "title": "4. Chapter Four: The Sauna Test",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUZ6jhN6CXGWRtc_CKmBuhn6imb_C9-vduhWDbFpUIPTNdrlBSuc_SGFE-3a82lp2m348NWRz-XTDP9NkFXqXEj6W-OKauAYy2bY4gSGWIX7hG194CgS9lCk.jpg?r=5eb",
+            "description": "A code red brings the gang back together to face a frighteningly familiar evil. Karen urges Nancy to keep digging, and Robin finds a useful map.",
+            "duration": "54m"
+        },
+        {
+            "season": 3,
+            "episode": 5,
+            "title": "5. Chapter Five: The Flayed",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRs6LtjuaNXDDDcpqX8oChAinNB62IR8fylugK7ow8x0LytjG5K2xTkeOOpHUNwDmORLT2C4N22gVfAFKmqans4Cbr_AXwytNC4ygvEIsLHgkASXVENy3Sf9.jpg?r=3b7",
+            "description": "Strange surprises lurk inside an old farmhouse and deep beneath the Starcourt Mall. Meanwhile, the Mind Flayer is gathering strength.",
+            "duration": "53m"
+        },
+        {
+            "season": 3,
+            "episode": 6,
+            "title": "6. Chapter Six: E Pluribus Unum",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSguulSA3B29wJgU3JXtGStprEZdQjrA3JyWFCC86Hx72nEY5YiEBKO3Q_UV20ldRd3BBCfomFC9uDebBrBA5k9zqWYrPJHR3DKp9-jvlzYsbRib9J41s4wl.jpg?r=bd7",
+            "description": "Dr. Alexei reveals what the Russians have been building, and Eleven sees where Billy has been. Dustin and Erica stage a daring rescue.",
+            "duration": "60m"
+        },
+        {
+            "season": 3,
+            "episode": 7,
+            "title": "7. Chapter Seven: The Bite",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABccHh4n1pBnMhm14ywX_MUBp0WBwXySMGQPl5qmjrHY8QgFU4slxRTMnOfndbjw5Cn4AN4ch99kHLAwvX5lh2-MRRj8oPBXmksHGuEf1579LFukLOm4DSctO.jpg?r=664",
+            "description": "With time running out -- and an assassin close behind -- Hopper's crew races back to Hawkins, where El and the kids are preparing for war.",
+            "duration": "56m"
+        },
+        {
+            "season": 3,
+            "episode": 8,
+            "title": "8. Chapter Eight: The Battle of Starcourt",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeMOfvryIBRoWwtgteLcdPhbcta7BmQnVT8CU3EepxAq5I73A-dZN8UEemgfLce8f2yT9QbkJ6TSM5yGw1ugY1URYMt_mk6Sk5tkx2rrckrAeRzeOpAVwcun.jpg?r=944",
+            "description": "Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.",
+            "duration": "78m"
+        },
+        {
+            "season": 4,
+            "episode": 1,
+            "title": "1. Chapter One: The Hellfire Club",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABask4iLzTRYSmhFgb6E-ijj1AhiKXUKd-ao0Dbgpa09A_jOYKXPsMaSjW_znMw07zJyj5U-C2wqtzYaY5H2Dstx0pP9_wyYdoH9YLH-0sNMPTLAabt6MbhKS.jpg?r=57e",
+            "description": "El is bullied at school. Joyce opens a mysterious package. A scrappy player shakes up D&D night. Warning: Contains graphic violence involving children.",
+            "duration": "78m"
+        },
+        {
+            "season": 4,
+            "episode": 2,
+            "title": "2. Chapter Two: Vecna's Curse",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeV5V9MK-bnWhDTS5-I4BNGIC-4Q48PebOuA_sx0A6_AepfcwH5lbRQ0Udhu8Wa1sZFB9bFVBur_OAMgUpGDx7PTt97P88OdgvU0hKlWmkYBUyRt1fS8uHne.jpg?r=731",
+            "description": "A plane brings Mike to California — and a dead body brings Hawkins to a halt. Nancy goes looking for leads. A shaken Eddie tells the gang what he saw.",
+            "duration": "78m"
+        },
+        {
+            "season": 4,
+            "episode": 3,
+            "title": "3. Chapter Three: The Monster and the Superhero",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdp_ijvZFTNeFdffOKwZjXqy6ppGLrxEwy0MHdJlyos_aQcwoCCPIFhJCMsIUKdzhZjmR-LMmCBucMwI6V3-hIvnMgOdxSCm_CDA6QwuyYPM6CmNM_bh30L_.jpg?r=c5c",
+            "description": "Murray and Joyce fly to Alaska, and El faces serious consequences. Robin and Nancy dig up dirt on Hawkins' demons. Dr. Owens delivers sobering news.",
+            "duration": "65m"
+        },
+        {
+            "season": 4,
+            "episode": 4,
+            "title": "4. Chapter Four: Dear Billy",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSyWCDyCkH8bclcB7MO5ElB2twJL0lRt0rEXJ4YJupNQIF56oPGjpT3JSfDZMmXdFjmD9ZD6L5BbW8ngDjcH38GIzV19fYRgrLsyAJ-OFxGN9BwppuW-KF0-.jpg?r=121",
+            "description": "Max is in grave danger... and running out of time. A patient at Pennhurst asylum has visitors. Elsewhere, in Russia, Hopper is hard at work.",
+            "duration": "79m"
+        },
+        {
+            "season": 4,
+            "episode": 5,
+            "title": "5. Chapter Five: The Nina Project",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcXRQ2EZWiDAZj9JSsN02s03YqcFjlPRYdtAfP2V_0t12cUOgl1a6R52h0AAqdIOm4aGz2yNcnrgJ_zcYECqVGlgFrTCzhdEJcBl_-fhmqX2t6HxZoWHuY3Z.jpg?r=585",
+            "description": "Owens takes El to Nevada, where she's forced to confront her past, while the Hawkins kids comb a crumbling house for clues. Vecna claims another victim.",
+            "duration": "77m"
+        },
+        {
+            "season": 4,
+            "episode": 6,
+            "title": "6. Chapter Six: The Dive",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRIVjZcgB74hMesHfOK3FX3b9SgnTULPzoVvEUIMrcSblMW65YRU0_cYz0UalqOZihd2vNnrTX11UaqdXS5Dey525ajKgUDtyet9UC5ZQS-g4QdPJZY_OxU9.jpg?r=9c9",
+            "description": "Behind the Iron Curtain, a risky rescue mission gets underway. The California crew seeks help from a hacker. Steve takes one for the team.",
+            "duration": "75m"
+        },
+        {
+            "season": 4,
+            "episode": 7,
+            "title": "7. Chapter Seven: The Massacre at Hawkins Lab",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABR2lmsqbd5No5Difc1iuotwAYOhYBV78glWvuWwGo3jQVg7saJykcwpwrWHFgTToiP7YDudVSgTjpMLall3lr3CgMYu1ai0at-yVx7SvwuFMS_3dhPM0gIyf.jpg?r=3ee",
+            "description": "As Hopper braces to battle a monster, Dustin dissects Vecna's motives — and decodes a message from beyond. El finds strength in a distant memory.",
+            "duration": "101m"
+        },
+        {
+            "season": 4,
+            "episode": 8,
+            "title": "8. Chapter Eight: Papa",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABS43ypf1nmtuxEJLVKrUb5RoGnjwMExoGFSz9zBTQvgL1R8AIrx8UgpY9-kD9urg1NR7-BRs1VF_Xdt4EDV0qtp-_ItIfRbuUs1FTaKbbzeOHOYT_Fr1b4pM.jpg?r=94c",
+            "description": "Nancy has sobering visions, and El passes an important test. Back in Hawkins, the gang gathers supplies and prepares for battle.",
+            "duration": "88m"
+        },
+        {
+            "season": 4,
+            "episode": 9,
+            "title": "9. Chapter Nine: The Piggyback",
+            "image": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeAk4YKpDKMVudfryjteOKXmhojEkhVIJzKlBbu5DWmf7EKBVAIf2x3sX11HdIiQ5w0mmtdkRDeoR1kETUt-isoIhojC5c5_sD61H4zOsUGe_NVshc7DkvH_.jpg?r=14c",
+            "description": "With selfless hearts and a clash of metal, heroes fight from every corner of the battlefield to save Hawkins — and the world itself.",
+            "duration": "143m"
+        }
+    ],
+    "header": [
+        {
+            "class": "fa-solid fa-magnifying-glass header__navigation--item",
+            "link": ""
+        },
+        {
+            "class": "fa-solid fa-house header__navigation--item",
+            "link": "index.html"
+        },
+        {
+            "class": "fa-solid fa-shuffle header__navigation--item",
+            "link": ""
+        },
+        {
+            "class": "fa-solid fa-arrow-trend-up header__navigation--item",
+            "link": ""
+        },
+        {
+            "class": "fa-solid fa-tv header__navigation--item",
+            "link": "movies.html"
+        },
+        {
+            "class": "fa-solid fa-clapperboard header__navigation--item",
+            "link": ""
+        },
+        {
+            "class": "fa-solid fa-shapes header__navigation--item",
+            "link": "shows.html"
+        },
+        {
+            "class": "fa-solid fa-plus header__navigation--item",
+            "link": ""
+        }
+    ],
+    "options": [
+        {
+            "id": 0,
+            "name": "Play From Beginning",
+            "class": "fa-solid fa-backward-step seriesHeading__options--icon"
+        },
+        {
+            "id": 1,
+            "name": "More Episodes",
+            "class": "fa-regular fa-clone seriesHeading__options--icon"
+        },
+        {
+            "id": 2,
+            "name": "More Like This",
+            "class": "fa-solid fa-table-cells-large seriesHeading__options--icon"
+        },
+        {
+            "id": 3,
+            "name": "Audio & Subtitles",
+            "class": "fa-regular fa-closed-captioning seriesHeading__options--icon"
+        },
+        {
+            "id": 4,
+            "name": "Add to My List",
+            "class": "fa-solid fa-plus seriesHeading__options--icon"
         }
     ]
 }

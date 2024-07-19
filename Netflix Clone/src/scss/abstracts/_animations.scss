@@ -31,3 +31,23 @@
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
 }
+
+@mixin nothing{
+    animation-name: none;
+}
+
+@keyframes expandTV{
+    from{
+        margin-left: 0;
+        margin-right: 0;
+        width: 12.5%;
+    }
+    to{
+        width: 50%;
+    }
+}
+
+@mixin expandTV{
+    animation-name: expandTV;
+    animation-duration: 0.4s;
+}

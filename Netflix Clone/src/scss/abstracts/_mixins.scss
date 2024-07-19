@@ -1,0 +1,7 @@
+@use "variables";
+
+@mixin match{
+    font-weight: 600;
+    color: map-get(variables.$netflixVars, "match");
+    text-shadow: 0 0 0.15rem map-get(variables.$netflixVars, "match");
+}

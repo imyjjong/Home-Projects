@@ -5,6 +5,7 @@ class Header{
     }
     async createHeader(){
         this.body = document.querySelector("body");
+        this.body.innerHTML = "";
 
         this.header = document.createElement("header");
         this.header.classList.add("header");
@@ -67,5 +68,37 @@ class Header{
         this.avatarImage.classList.add("header__list--item-avatar");
         this.avatarImage.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png");
         this.avatar.appendChild(this.avatarImage);
+    }
+}
+
+class HeaderTV{
+    constructor(){
+        this.data = new Fetch();
+        this.createHeader();
+    }
+    async createHeader(){
+        this.body = document.querySelector("body");
+
+        this.body.innerHTML = "";
+        
+        this.header = document.createElement("header");
+        this.header.classList.add("header");
+        this.body.appendChild(this.header);
+
+        this.navigation = document.createElement("nav");
+        this.navigation.classList.add("header__navigation");
+        this.header.appendChild(this.navigation);
+
+        const data = await this.data.fetch();
+        for(let i = 0; i < data.header.length; i++){
+            this.link = document.createElement("a");
+            this.link.classList.add("header__navigation--link");
+            this.link.setAttribute("href", data.header[i].link);
+            this.navigation.appendChild(this.link);
+
+            this.icon = document.createElement("i");
+            this.icon.classList = data.header[i].class;
+            this.link.appendChild(this.icon);
+        }
     }
 }
