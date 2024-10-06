@@ -39,27 +39,20 @@
             color: darken(map-get(variables.$baseVars, "color"), 30%);
         }
     }
-
-    &__audio{
-        width: 100%;
-        @include mixins.flexBox;
-
-        &::-webkit-media-controls{
-            &-timeline{
-            display: none;
-            }
-            &-mute-button{
-                display: none;
-            }
-            &-current-time-display{
-                display: none;
-            }
-            &-time-remaining-display{
-                display: none;
-            }
-            &-enclosure{
-                @include mixins.flexBox;
-            }
-        }
+    &__play{
+        background: map-get(variables.$accentVars, "brat");
+        border: none;
+        color: map-get(variables.$baseVars, "color");
+        font-size: 2rem;
+        width: 6rem;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        padding: 1rem;
+        color: black;
     }
+}
+
+.audioForm{
+    width: 100%;
+    @include mixins.flexBox;
 }

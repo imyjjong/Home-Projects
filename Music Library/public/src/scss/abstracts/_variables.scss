@@ -1,5 +1,14 @@
 $baseVars: (
     "background": black,
     "color": whitesmoke,
-    "font": sans-serif
+    "font": "Roboto"
+);
+
+$accentVars: (
+    "greyColor": darken(whitesmoke, 55%),
+    "brat": rgb(0, 255, 0)
+);
+
+$gradients: (
+    "snowangel": linear-gradient(rgb(24, 64, 72), 55%, black)
 );
