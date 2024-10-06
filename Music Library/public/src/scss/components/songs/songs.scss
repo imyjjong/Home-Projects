@@ -1,0 +1,65 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.songs{
+    width: 100%;
+    @include mixins.flexBox;
+    gap: 1rem;
+}
+
+.song{
+    background: lighten(map-get(variables.$baseVars, "background"), 3%);
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+
+    &__figure{
+        width: 100%;
+
+        &--image{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__wrapper{
+        width: 100%;
+        padding: 0 1rem;
+
+        &--title{
+            font-size: 100%;
+        }
+    
+        &--artist{
+            font-size: 85%;
+            font-weight: 500;
+            color: darken(map-get(variables.$baseVars, "color"), 30%);
+        }
+    }
+
+    &__audio{
+        width: 100%;
+        @include mixins.flexBox;
+
+        &::-webkit-media-controls{
+            &-timeline{
+            display: none;
+            }
+            &-mute-button{
+                display: none;
+            }
+            &-current-time-display{
+                display: none;
+            }
+            &-time-remaining-display{
+                display: none;
+            }
+            &-enclosure{
+                @include mixins.flexBox;
+            }
+        }
+    }
+}
