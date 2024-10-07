@@ -1,0 +1,17 @@
+@use "variables";
+@use "mixins";
+
+@keyframes playbutton{
+    0%{
+        transform: translate(-20%, -10%);
+    }
+    100%{
+        transform: translate(-20%, -20%);
+    }
+}
+
+@mixin playbutton{
+    animation-name: playbutton;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}

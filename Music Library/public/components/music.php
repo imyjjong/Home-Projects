@@ -16,18 +16,15 @@
             echo '<article class="song">';
             echo '<figure class="song__figure">';
             echo '<img class="song__figure--image" src="'.$array[$i]["cover"].'" alt="'.$array[$i]['title'].' album cover">';
+            echo '<form class="audioForm" action="components/playaudio.php" method="GET">';
+            echo '<input type="hidden" name="audio" value="'.$array[$i]['audio'].'">';
+            echo '<button class="song__figure--play" type="submit"><i class="fa-solid fa-play song__figure--play-icon"></i></button>';
+            echo '</form>';
             echo '</figure>';
             echo '<div class="song__wrapper">';
             echo '<h2 class="song__wrapper--title">'.$array[$i]['title'].'</h2>';
             echo '<h3 class="song__wrapper--artist">'.$array[$i]['artist'].'</h3>';
             echo '</div>';
-            // echo '<audio class="song__audio" controls controlsList="nodownload noplaybackrate">';
-            // echo '<source src="'.$array[$i]['audio'].'" type="audio/mp3">';
-            // echo '</audio>';
-            echo '<form class="audioForm" action="components/playaudio.php" method="GET">';
-            echo '<input type="hidden" name="audio" value="'.$array[$i]['audio'].'">';
-            echo '<button class="song__play" type="submit"><i class="fa-solid fa-play song__play--icon"></i></button>';
-            echo '</form>';
             echo '</article>';
         }
     };
@@ -48,9 +45,10 @@
             echo '<li class="playlist__song">';
             echo '<span class="playlist__song--number">';
             echo '<p class="playlist__song--number-text">'.$array[$i]['idMusic'].'</p>';
-            echo '<audio class="playlist__song--number-audio" controls controlsList="nodownload noplaybackrate">';
-            echo '<source src="'.$array[$i]['audio'].'" type="audio/mp3">';
-            echo '</audio>';
+            echo '<form class="playlistForm" action="components/playaudio.php" method="GET">';
+            echo '<input type="hidden" name="audio" value="'.$array[$i]['audio'].'">';
+            echo '<button class="playlist__play" type="submit"><i class="fa-solid fa-play song__play--icon"></i></button>';
+            echo '</form>';
             echo '</span>';
             echo '<span class="playlist__song--title">';
             echo '<p class="playlist__song--title-text">'.$array[$i]['title'].'</p>';

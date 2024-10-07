@@ -58,6 +58,17 @@
         gap: 1rem;
     }
 
+    &__play{
+        background: none;
+        border: none;
+        color: map-get(variables.$accentVars, "greyColor");
+        display: none;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
     &__song{
         width: 100%;
         display: flex;
@@ -70,6 +81,13 @@
             cursor: pointer;
             background: lighten(map-get(variables.$baseVars, "background"), 5%);
         }
+        &:hover .playlist__play{
+            display: flex;
+        }
+
+        &:hover &--number-text{
+            display: none;
+        }
 
         &--number{
             width: 5%;
@@ -77,16 +95,6 @@
             color: map-get(variables.$accentVars, "greyColor");
             @include mixins.flexBox;
 
-            &:hover &-audio{
-                display: flex;
-            }
-
-            &:hover &-text{
-                display: none;
-            }
-            &-audio{
-                display: none;
-            }
         }
         &--title{
             width: 50%;
@@ -122,6 +130,12 @@
             &-text{
                 font-size: 90%;
                 font-weight: 500;
+                
+                &:hover{
+                    cursor: pointer;
+                    color: map-get(variables.$baseVars, "color");
+                    text-decoration: underline;
+                }
             }
         }
         &--duration{
