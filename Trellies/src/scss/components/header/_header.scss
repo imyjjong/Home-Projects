@@ -1,7 +1,7 @@
 @use "../../abstract/variables.scss";
 
 .header{
-    background: map-get(variables.$tasksVars, "background");
+    background: darken(variables.$backgroundColor, 2%);
     width: 100%;
     height: 5rem;
     position: fixed;

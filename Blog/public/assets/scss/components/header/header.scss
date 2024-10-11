@@ -1,9 +1,0 @@
-@use "../../abstracts/variables";
-@use "../../abstracts/mixins";
-
-.header{
-    background: map-get(variables.$headerVars, "background");
-    color:  map-get(variables.$baseVars, "color");
-    padding: 1rem 2rem;
-    @include mixins.flexBox;
-}
