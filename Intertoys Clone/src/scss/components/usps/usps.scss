@@ -1,0 +1,17 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.usps{
+    background: map-get(variables.$intertoysVars, "usps");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 55%;
+    height: 4rem;
+    gap: 2rem;
+    padding: 0 18rem;
+
+    &__usp{
+        @include mixins.flexBox;
+    }
+}

@@ -1,0 +1,164 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.welcome{
+    background: map-get(variables.$welcomeVars, "background");
+    color: map-get(variables.$welcomeVars, "color");
+
+    &__body{
+        background: map-get(variables.$welcomeVars, "background");
+        color: map-get(variables.$welcomeVars, "color");
+    }
+
+    &__image{
+        position: absolute;
+        left: -8rem;
+        top: 0;
+        max-width: 87.7rem;
+    }
+
+    &__container{
+        position: relative;
+        min-height: 100vh;
+        @include mixins.flexBox;
+        flex-direction: column;
+
+        &--wrapper{
+            position: relative;
+            width: 100%;
+            max-width: 67.2rem;
+            padding: 0 2.4rem;
+        }
+    }
+    &__header{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+        gap: 0.8rem;
+        padding: 4rem 0;
+
+        &--logo{
+            display: flex;
+        }
+        &--svg{
+            height: 4.8rem;
+            width: auto;
+            color: map-get(variables.$welcomeVars, "svg");
+        }
+        &--navigation{
+            margin: 0 -1.2rem;
+            display: flex;
+            flex: 1 1 0%;
+            justify-content: flex-end;
+            &-item{
+                border-radius: 0.6rem;
+                padding: 0.8rem 1.2rem;
+                color: map-get(variables.$welcomeVars, "navigationColor");
+
+                &:hover{
+                    color: rgba(map-get(variables.$welcomeVars, "navigationColor"), 0.7);
+                }
+                &:focus{
+                    outline: none;
+                }
+                &:focus-visible{
+                    box-shadow: 0 0 1rem 1rem map-get(variables.$welcomeVars, "focusRed");
+                }
+            }
+        }
+    }
+    &__main{
+        margin-top: 2.4rem;
+    }
+    &__footer{
+        padding: 6.4rem 0;
+        text-align: center;
+        font-size: 1.4rem;
+        color: rgba(map-get(variables.$welcomeVars, "color"), 0.7);
+    }
+}
+
+.laravel{
+    display: grid;
+    gap: 2.4rem;
+
+    &__documentation{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2.4rem;
+        overflow: hidden;
+        border-radius: 0.8rem;
+        background: map-get(variables.$welcomeVars, "cardBackground");
+        padding: 2.4rem;
+
+        &--svg{
+            width: 2rem;
+            height: 2rem;
+        }
+
+        &--screenshot{
+            position: relative;
+            display: flex;
+            width: 100%;
+            flex: 1 1 0%;
+            align-items: stretch;
+
+            &-image{
+                aspect-ratio: 16 / 9;
+                height: 100%;
+                width: 100%;
+                flex: 1 1 0%;
+                border-radius: 1rem;
+                object-position: top;
+            }
+            &-wrapper{
+                position: absolute;
+                bottom: -6.4rem;
+                left: -6.4rem;
+                height: 16rem;
+                width: calc(100% + 12.8rem);
+            }
+        }
+        &--container{
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 2.4rem;
+
+            &-wrapper{
+                display: flex;
+                align-items: start;
+                gap: 2.4rem;
+            }
+            &-image{
+                display: flex;
+                width: 4.8rem;
+                height: 4.8rem;
+                flex-shrink: 0;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100%;
+                background: rgba(map-get(variables.$welcomeVars, "laravelImage"), 0.1);
+            }
+            &-title{
+                padding-top: 1.2rem;
+            }
+            &-heading{
+                font-size: 2rem;
+                font-weight: 600;
+                color: map-get(variables.$welcomeVars, "color");
+            }
+            &-text{
+                margin-top: 1.6rem;
+                font-size: 1.4rem;
+            }
+            &-svg{
+                width: 2.4rem;
+                height: 2.4rem;
+                flex-shrink: 0;
+                stroke: map-get(variables.$welcomeVars, "laravelImage");
+            }
+        }
+    }
+}

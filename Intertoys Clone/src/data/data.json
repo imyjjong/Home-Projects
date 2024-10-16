@@ -1,0 +1,279 @@
+{
+    "usps": [
+        {
+            "usp": "Op werkdagen besteld, binnen 1-2 dagen in huis*"
+        },
+        {
+            "usp": "Gratis ophalen & retourneren in meer dan 200 winkels"
+        },
+        {
+            "usp": "Gratis bezorging vanaf 20.-"
+        },
+        {
+            "usp": "Betaal achteraf met Klarna"
+        }
+    ],
+    "headerLinks": [
+        {
+            "link": "",
+            "class": "header__links--stores",
+            "image": "src/img/stores.png",
+            "imageClass": "header__links--stores-image"
+        },
+        {
+            "link": "",
+            "class": "header__links--heart",
+            "image": "src/img/heart.png",
+            "imageClass": "header__links--heart-image"
+        },
+        {
+            "link": "",
+            "class": "header__links--profile",
+            "image": "src/img/profile.png",
+            "imageClass": "header__links--profile-image"
+        },
+        {
+            "link": "",
+            "class": "header__links--cart",
+            "image": "src/img/cart.png",
+            "imageClass": "header__links--cart-image"
+        }
+    ],
+    "navigation": [
+        {
+            "item": "Bouwen & constructie"
+        },
+        {
+            "item": "Puzzels"
+        },
+        {
+            "item": "Spellen"
+        },
+        {
+            "item": "Baby & peuter"
+        },
+        {
+            "item": "Gaming"
+        },
+        {
+            "item": "Buitenspeelgoed & sport"
+        }
+    ],
+    "navLinks": [
+        {
+            "item": "Acties & Folder",
+            "link": ""
+        },
+        {
+            "item": "Kadokaart",
+            "link": ""
+        },
+        {
+            "item": "Cadeautips",
+            "link": ""
+        },
+        {
+            "item": "GO PLAY",
+            "link": ""
+        },
+        {
+            "item": "Klantenservice",
+            "link": ""
+        }
+    ],
+    "popular": [
+        {
+            "image": "src/img/popular/acties.png"
+        },
+        {
+            "image": "src/img/popular/acties.png"
+        },
+        {
+            "image": "src/img/popular/acties.png"
+        },
+        {
+            "image": "src/img/popular/acties.png"
+        },
+        {
+            "image": "src/img/popular/acties.png"
+        },
+        {
+            "image": "src/img/popular/acties.png"
+        }
+    ],
+    "promos": [
+        {
+            "image": "src/img/promos/promoOne.png"
+        },
+        {
+            "image": "src/img/promos/promoTwo.png"
+        }
+    ],
+    "bestsellers": [
+        {
+            "image": "src/img/bestsellers/lego.png",
+            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
+            "price": 132.99
+        },
+        {
+            "image": "src/img/bestsellers/lego.png",
+            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
+            "price": 132.99
+        },
+        {
+            "image": "src/img/bestsellers/lego.png",
+            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
+            "price": 132.99
+        },
+        {
+            "image": "src/img/bestsellers/lego.png",
+            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
+            "price": 132.99
+        },
+        {
+            "image": "src/img/bestsellers/lego.png",
+            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
+            "price": 132.99
+        }
+    ],
+    "bestsellersPromos": [
+        {
+            "image": "src/img/bestsellers/promos/promoOne.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/bestsellers/promos/promoTwo.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/bestsellers/promos/promoThree.png",
+            "link": ""
+        }
+    ],
+    "sales": [
+        {
+            "link": "",
+            "image": "src/img/sales/ps5.png",
+            "title": "PS5 Slim Digital Edition",
+            "price": 399.95
+        },
+        {
+            "link": "",
+            "image": "src/img/sales/ps5.png",
+            "title": "PS5 Slim Digital Edition",
+            "price": 399.95
+        },
+        {
+            "link": "",
+            "image": "src/img/sales/ps5.png",
+            "title": "PS5 Slim Digital Edition",
+            "price": 399.95
+        },
+        {
+            "link": "",
+            "image": "src/img/sales/ps5.png",
+            "title": "PS5 Slim Digital Edition",
+            "price": 399.95
+        },
+        {
+            "link": "",
+            "image": "src/img/sales/ps5.png",
+            "title": "PS5 Slim Digital Edition",
+            "price": 399.95
+        },
+        {
+            "link": "",
+            "image": "src/img/sales/ps5.png",
+            "title": "PS5 Slim Digital Edition",
+            "price": 399.95
+        }
+    ],
+    "ages": [
+        {
+            "image": "src/img/ages/0-12.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/ages/0-12.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/ages/0-12.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/ages/0-12.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/ages/0-12.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/ages/0-12.png",
+            "link": ""
+        }
+    ],
+    "brands": [
+        {
+            "image": "src/img/brands/lego.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/brands/lego.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/brands/lego.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/brands/lego.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/brands/lego.png",
+            "link": ""
+        },
+        {
+            "image": "src/img/brands/lego.png",
+            "link": ""
+        }
+    ],
+    "instagram": [
+        {
+            "image": "src/img/instagram/steve.png",
+            "username": "@niickypops"
+        },
+        {
+            "image": "src/img/instagram/steve.png",
+            "username": "@niickypops"
+        },
+        {
+            "image": "src/img/instagram/steve.png",
+            "username": "@niickypops"
+        },
+        {
+            "image": "src/img/instagram/steve.png",
+            "username": "@niickypops"
+        },
+        {
+            "image": "src/img/instagram/steve.png",
+            "username": "@niickypops"
+        }
+    ],
+    "about": [
+        {
+            "tag": "h2",
+            "class": "about__title",
+            "title": "Ontdek het leukste speelgoed in onze speelgoedwinkel",
+            "text": "Bij Intertoys duik je in de magische wereld van speelgoed! Al generaties lang vind je in onze speelgoedwinkel een breed assortiment speelgoedartikelen voor jong en oud. Ontdek al het schitterende speelgoed van bekende merken als LEGO, Gabby’s Poppenhuis en PAW Patrol en de nieuwste games voor jouw PS5, Nintendo Switch of Xbox."
+        },
+        {
+            "tag": "h3",
+            "class": "about__title--second",
+            "title": "Kom shoppen in onze fysieke en online speelgoedwinkel",
+            "text": "Of je nu op zoek bent naar een speciaal cadeau, een verjaardag viert of gewoon een glimlach op iemands gezicht wilt toveren, Intertoys staat altijd voor je klaar. Waar wacht je nog op? Spelen is het leukste wat er is, dus Go Play!"
+        }
+    ]
+}
