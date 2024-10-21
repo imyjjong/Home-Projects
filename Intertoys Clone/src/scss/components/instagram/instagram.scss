@@ -1,0 +1,81 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.instagram{
+    background: map-get(variables.$intertoysVars, "lightgrey");
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+
+    &__wrapper{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+        font-size: 100%;
+    }
+    &__icon{
+        font-size: 200%;
+    }
+    &Wrapper{
+        @include mixins.flexBox;
+        width: 100%;
+    }
+    &__left, &__right{
+        @include mixins.leftright;
+    }
+    &__list{
+        @include mixins.flexBox;
+        gap: 2rem;
+        list-style: none;
+        width: 100%;
+
+        &--item{
+            width: 19rem;
+            aspect-ratio: 1/1;
+            position: relative;
+
+            &-image{
+                width: 100%;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                transition: 0.4s all;
+
+                &:hover{
+                    cursor: pointer;
+                    box-shadow: 0 0rem 1.4rem 0.2rem rgba(0, 0, 0, 0.4);
+                }
+            }
+            &-username{
+                position: absolute;
+                bottom: 8%;
+                left: 5%;
+                color: map-get(variables.$baseVars, "background");
+                font-size: 65%;
+                font-weight: 600;
+                text-shadow: 0.1rem 0.1rem 0.1rem map-get(variables.$baseVars, "color");
+            }
+        }
+    }
+
+    &__inspiration{
+        @include mixins.flexBox;
+        width: 100%;
+
+        &--button{
+            border: none;
+            background: map-get(variables.$baseVars, "color");
+            color: map-get(variables.$baseVars, "background");
+            font-family: map-get(variables.$baseVars, "secondFont");
+            font-size: 110%;
+            font-weight: 600;
+            padding: 0.4rem 4rem;
+            border-radius: 0.4rem;
+            @include mixins.flexBox;
+        }
+    }
+}

@@ -10,22 +10,22 @@ class Brands{
         this.brands.classList.add("brands");
         this.main.appendChild(this.brands);
 
-        this.left = document.createElement("div");
-        this.left.classList.add("brands__left");
-        this.brands.appendChild(this.left);
-
-        this.leftIcon = document.createElement("i");
-        this.leftIcon.classList = "fa-solid fa-chevron-left brands__left--icon";
-        this.left.appendChild(this.leftIcon);
+        this.title = document.createElement("h2");
+        this.title.classList.add("brands__title");
+        this.title.innerText = "Leukste merken voor alle leeftijden";
+        this.brands.appendChild(this.title);
 
         this.brandsWrapper = document.createElement("div");
         this.brandsWrapper.classList.add("brandsWrapper");
         this.brands.appendChild(this.brandsWrapper);
 
-        this.title = document.createElement("h2");
-        this.title.classList.add("brands__title");
-        this.title.innerText = "Leukste merken voor alle leeftijden";
-        this.brandsWrapper.appendChild(this.title);
+        this.left = document.createElement("div");
+        this.left.classList.add("brands__left");
+        this.brandsWrapper.appendChild(this.left);
+
+        this.leftIcon = document.createElement("i");
+        this.leftIcon.classList = "fa-solid fa-chevron-left brands__left--icon";
+        this.left.appendChild(this.leftIcon);
 
         this.list = document.createElement("ul");
         this.list.classList.add("brands__list");
@@ -50,7 +50,7 @@ class Brands{
 
         this.right = document.createElement("div");
         this.right.classList.add("brands__right");
-        this.brands.appendChild(this.right);
+        this.brandsWrapper.appendChild(this.right);
 
         this.rightIcon = document.createElement("i");
         this.rightIcon.classList = "fa-solid fa-chevron-right brands__right--icon";

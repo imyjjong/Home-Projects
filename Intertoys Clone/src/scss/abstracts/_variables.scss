@@ -1,11 +1,26 @@
 $baseVars: (
     "background": white, 
     "color": black,
-    "font": sans-serif
+    "font": "Effra",
+    "secondFont": "chaloops"
 );
 
 $intertoysVars: (
     "yellow": #fd0,
     "blue": #009AD8,
-    "usps": #ffffff
+    "usps": #ffffff,
+    "grey": rgb(86, 86, 86),
+    "darkgrey": #353535,
+    "red": #E4032F,
+    "lightgrey": #f4f4f4
+);
+
+$subHeaderVars: (
+    "background": #efefef,
+    "orange": #EA560D
+);
+
+$accentVars: (
+    "gold": #ffd700,
+    "lightgrey": #9b9b9b
 );

@@ -9,22 +9,22 @@ class BestSellers{
         this.bestsellers.classList.add("bestsellers");
         this.main.appendChild(this.bestsellers);
 
-        this.left = document.createElement("div");
-        this.left.classList.add("bestsellers__left");
-        this.bestsellers.appendChild(this.left);
-
-        this.leftIcon = document.createElement("i");
-        this.leftIcon.classList = "fa-solid fa-chevron-left bestsellers__left--icon";
-        this.left.appendChild(this.leftIcon);
+        this.title = document.createElement("h2");
+        this.title.classList.add("bestsellers__title");
+        this.title.innerText = "Het meest verkochte speelgoed";
+        this.bestsellers.appendChild(this.title);
 
         this.bestsellersWrapper = document.createElement("div");
         this.bestsellersWrapper.classList.add("bestsellersWrapper");
         this.bestsellers.appendChild(this.bestsellersWrapper);
 
-        this.title = document.createElement("h2");
-        this.title.classList.add("bestsellers__title");
-        this.title.innerText = "Het meest verkochte speelgoed";
-        this.bestsellersWrapper.appendChild(this.title);
+        this.left = document.createElement("div");
+        this.left.classList.add("bestsellers__left");
+        this.bestsellersWrapper.appendChild(this.left);
+
+        this.leftIcon = document.createElement("i");
+        this.leftIcon.classList = "fa-solid fa-chevron-left bestsellers__left--icon";
+        this.left.appendChild(this.leftIcon);
 
         this.list = document.createElement("ul");
         this.list.classList.add("bestsellers__list");
@@ -52,7 +52,7 @@ class BestSellers{
 
             this.price = document.createElement("span");
             this.price.classList.add("bestsellers__list--item-price");
-            this.item.appendChild(this.price);
+            this.details.appendChild(this.price);
             
             this.priceText = document.createElement("p");
             this.priceText.classList.add("bestsellers__list--item-priceText");
@@ -62,7 +62,7 @@ class BestSellers{
 
         this.right = document.createElement("div");
         this.right.classList.add("bestsellers__right");
-        this.bestsellers.appendChild(this.right);
+        this.bestsellersWrapper.appendChild(this.right);
 
         this.rightIcon = document.createElement("i");
         this.rightIcon.classList = "fa-solid fa-chevron-right bestsellers__right--icon";
@@ -79,7 +79,7 @@ class BestSellers{
             this.promos.appendChild(this.promo);
 
             this.promoImage = document.createElement("img");
-            this.promoImage.classList.add("bestsellers__promo--image");
+            this.promoImage.classList.add("bestsellers__promos--image");
             this.promoImage.setAttribute("src", data.bestsellersPromos[i].image);
             this.promo.appendChild(this.promoImage);
         }

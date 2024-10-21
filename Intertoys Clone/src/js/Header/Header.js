@@ -14,19 +14,23 @@ class Header{
         this.navigation.classList.add("header__navigation");
         this.header.appendChild(this.navigation);
 
+        this.figure = document.createElement("span");
+        this.figure.classList.add("header__figure");
+        this.navigation.appendChild(this.figure);
+
+        this.logoLink = document.createElement("a");
+        this.logoLink.classList.add("header__figure--link");
+        this.logoLink.setAttribute("href", "");
+        this.figure.appendChild(this.logoLink);
+
+        this.logo = document.createElement("img");
+        this.logo.classList.add("header__figure--logo");
+        this.logo.setAttribute("src", "src/img/logo.png");
+        this.logoLink.appendChild(this.logo);
+
         this.wrapper = document.createElement("span");
         this.wrapper.classList.add("header__wrapper");
         this.navigation.appendChild(this.wrapper);
-
-        this.logoLink = document.createElement("a");
-        this.logoLink.classList.add("header__wrapper--link");
-        this.logoLink.setAttribute("href", "");
-        this.wrapper.appendChild(this.logoLink);
-
-        this.logo = document.createElement("img");
-        this.logo.classList.add("header__wrapper--logo");
-        this.logo.setAttribute("src", "src/img/logo.png");
-        this.logoLink.appendChild(this.logo);
 
         this.dropdown = document.createElement("div");
         this.dropdown.classList.add("header__wrapper--dropdown");
@@ -34,8 +38,8 @@ class Header{
         this.wrapper.appendChild(this.dropdown);
 
         this.dropdownIcon = document.createElement("i");
-        this.dropdownIcon.classList = "fa-solid fa-chevron-down header__navigation--dropdown-icon";
-        this.dropdown.appendChild(this.dropdownIcon);
+        this.dropdownIcon.classList = "fa-solid fa-chevron-down header__wrapper--icon";
+        this.wrapper.appendChild(this.dropdownIcon);
 
         this.searchWrapper = document.createElement("span");
         this.searchWrapper.classList.add("header__search");
@@ -43,6 +47,7 @@ class Header{
 
         this.search = document.createElement("input");
         this.search.classList.add("header__search--input");
+        this.search.placeholder = "Ik ben op zoek naar...";
         this.searchWrapper.appendChild(this.search);
 
         this.searchIcon = document.createElement("i");

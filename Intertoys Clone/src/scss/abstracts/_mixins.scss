@@ -1,5 +1,17 @@
+@use "variables";
+
 @mixin flexBox{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin leftright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 100%;
+    font-size: 200%;
+    color: map-get(variables.$intertoysVars, "grey");
 }

@@ -19,30 +19,30 @@ class Heading{
         this.banner.setAttribute("src", "src/img/playbook.png");
         this.heading.appendChild(this.banner);
 
-        this.left = document.createElement("div");
-        this.left.classList.add("heading__left");
-        this.heading.appendChild(this.left);
-
-        this.leftIcon = document.createElement("i");
-        this.leftIcon.classList = "fa-solid fa-chevron-left heading__left--icon";
-        this.left.appendChild(this.leftIcon);
-
         this.headingWrapper = document.createElement("div");
         this.headingWrapper.classList.add("headingWrapper");
         this.heading.appendChild(this.headingWrapper);
-
-        this.popular = document.createElement("div");
-        this.popular.classList.add("heading__popular");
-        this.heading.appendChild(this.popular);
 
         this.title = document.createElement("h2");
         this.title.classList.add("heading__popular--title");
         this.title.innerText = "De populaire categorieën speelgoed";
         this.headingWrapper.appendChild(this.title);
 
+        this.popular = document.createElement("div");
+        this.popular.classList.add("heading__popular");
+        this.headingWrapper.appendChild(this.popular);
+
+        this.left = document.createElement("div");
+        this.left.classList.add("heading__left");
+        this.popular.appendChild(this.left);
+
+        this.leftIcon = document.createElement("i");
+        this.leftIcon.classList = "fa-solid fa-chevron-left heading__left--icon";
+        this.left.appendChild(this.leftIcon);
+
         this.list = document.createElement("ul");
         this.list.classList.add("heading__popular--list");
-        this.headingWrapper.appendChild(this.list);
+        this.popular.appendChild(this.list);
 
         const data = await this.data.fetch();
         for(let i = 0; i < data.popular.length; i++){
@@ -58,7 +58,7 @@ class Heading{
 
         this.right = document.createElement("div");
         this.right.classList.add("heading__right");
-        this.heading.appendChild(this.right);
+        this.popular.appendChild(this.right);
 
         this.rightIcon = document.createElement("i");
         this.rightIcon.classList = "fa-solid fa-chevron-right heading__right--icon";

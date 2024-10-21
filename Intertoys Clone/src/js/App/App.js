@@ -8,6 +8,7 @@ import Ages from "../Ages/Ages.js";
 import Brands from "../Brands/Brands.js";
 import Instagram from "../Instagram/Instagram.js";
 import About from "../About/About.js";
+import Footer from "../Footer/Footer.js";
 
 class App{
     constructor(){
@@ -21,6 +22,7 @@ class App{
         this.brands = new Brands();
         this.instagram = new Instagram();
         this.about = new About();
+        this.footer = new Footer();
     }
 }
 

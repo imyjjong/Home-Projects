@@ -1,0 +1,26 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.about{
+    @include mixins.flexBox;
+    flex-direction: column;
+    gap: 2rem;
+    color: map-get(variables.$intertoysVars, "darkgrey");
+
+    &__title{
+        font-weight: 500;
+
+        &--second{
+            font-size: 85%;
+        }
+    }
+    &__wrapper{
+        @include mixins.flexBox;
+        flex-direction: column;
+
+        &--text{
+            font-size: 80%;
+            text-align: center;
+        }
+    }
+}

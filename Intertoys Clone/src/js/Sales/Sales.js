@@ -9,22 +9,22 @@ class Sales{
         this.sales.classList.add("sales");
         this.main.appendChild(this.sales);
 
-        this.left = document.createElement("div");
-        this.left.classList.add("sales__left");
-        this.sales.appendChild(this.left);
-
-        this.leftIcon = document.createElement("i");
-        this.leftIcon.classList = "fa-solid fa-chevron-left sales__left--icon";
-        this.left.appendChild(this.leftIcon);
+        this.title = document.createElement("h2");
+        this.title.classList.add("sales__title");
+        this.title.innerText = "De beste aanbiedingen van Intertoys";
+        this.sales.appendChild(this.title);
 
         this.salesWrapper = document.createElement("div");
         this.salesWrapper.classList.add("salesWrapper");
         this.sales.appendChild(this.salesWrapper);
         
-        this.title = document.createElement("h2");
-        this.title.classList.add("sales__title");
-        this.title.innerText = "De beste aanbiedingen van Intertoys";
-        this.salesWrapper.appendChild(this.title);
+        this.left = document.createElement("div");
+        this.left.classList.add("sales__left");
+        this.salesWrapper.appendChild(this.left);
+
+        this.leftIcon = document.createElement("i");
+        this.leftIcon.classList = "fa-solid fa-chevron-left sales__left--icon";
+        this.left.appendChild(this.leftIcon);
 
         this.list = document.createElement("ul");
         this.list.classList.add("sales__list");
@@ -67,7 +67,7 @@ class Sales{
         
         this.right = document.createElement("div");
         this.right.classList.add("sales__right");
-        this.sales.appendChild(this.right);
+        this.salesWrapper.appendChild(this.right);
 
         this.rightIcon = document.createElement("i");
         this.rightIcon.classList = "fa-solid fa-chevron-right sales__right--icon";

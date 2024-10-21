@@ -5,21 +5,129 @@
     width: 100%;
     background: map-get(variables.$intertoysVars, "yellow");
     height: 6rem;
-    padding: 0.4rem 16rem;
+    padding: 0rem 16rem;
 
     &__navigation{
         width: 100%;
         height: 100%;
         @include mixins.flexBox;
     }
-    &__wrapper{
-        width: 100%;
-        @include mixins.flexBox;
+    &__figure{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
 
         &--logo{
-            width: 30%;
+            width: 90%;
             height: 100%;
             object-fit: contain;
+        }
+    }
+    &__wrapper{
+        width: 15%;
+        height: 100%;
+        @include mixins.flexBox;
+        gap: 1rem;
+        font-family: map-get(variables.$baseVars, "secondFont");
+        font-weight: 700;
+        font-size: 100%;
+        color: map-get(variables.$intertoysVars, "darkgrey");
+
+        &--icon{
+            font-size: 80%;
+            color: map-get(variables.$baseVars, "color");
+        }
+
+        &:hover{
+            cursor: pointer;
+            background: map-get(variables.$baseVars, "background");
+        }
+    }
+    &__search{
+        height: 100%;
+        width: 40%;
+        @include mixins.flexBox;
+        padding: 0 4rem;
+        position: relative;
+
+        &--input{
+            width: 100%;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 0.4rem;
+            font-size: 70%;
+            color: map-get(variables.$intertoysVars, "grey");
+            font-family: map-get(variables.$baseVars, "font");
+
+            &:focus{
+                outline: none;
+            }
+        }
+        &--icon{
+            position: absolute;
+            right: 10%;
+            font-size: 90%;
+            color: map-get(variables.$intertoysVars, "grey");
+        }
+    }
+    &__links{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0 2rem;
+
+        &--stores{
+            height: 100%;
+            width: 25%;
+
+            &-image{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        &--heart{
+            @include mixins.flexBox;
+            &-image{
+                width: 55%;
+                object-fit: contain;
+            }
+        }
+        &--profile{
+            @include mixins.flexBox;
+            &-image{
+                width: 55%;
+                object-fit: contain;
+            }
+        }
+        &--cart{
+            position: relative;
+            height: 60%;
+            @include mixins.flexBox;
+            border-left: 0.1rem solid map-get(variables.$baseVars, "color");
+
+            &-image{
+                width: 40%;
+                object-fit: contain;
+            }
+            &-total{
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: map-get(variables.$baseVars, "background");
+                color: map-get(variables.$intertoysVars, "blue");
+                font-weight: 700;
+                font-size: 70%;
+                height: 2.4rem;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                @include mixins.flexBox;
+            }
         }
     }
 }

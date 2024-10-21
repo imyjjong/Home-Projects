@@ -10,22 +10,22 @@ class Ages{
         this.ages.classList.add("ages");
         this.main.appendChild(this.ages);
 
-        this.left = document.createElement("div");
-        this.left.classList.add("ages__left");
-        this.ages.appendChild(this.left);
-
-        this.leftIcon = document.createElement("i");
-        this.leftIcon.classList = "fa-solid fa-chevron-left ages__left--icon";
-        this.left.appendChild(this.leftIcon);
+        this.title = document.createElement("h2");
+        this.title.classList.add("ages__title");
+        this.title.innerText = "Populaire leeftijden";
+        this.ages.appendChild(this.title);
 
         this.agesWrapper = document.createElement("div");
         this.agesWrapper.classList.add("agesWrapper");
         this.ages.appendChild(this.agesWrapper);
 
-        this.title = document.createElement("h2");
-        this.title.classList.add("ages__title");
-        this.title.innerText = "Populaire leeftijden";
-        this.agesWrapper.appendChild(this.title);
+        this.left = document.createElement("div");
+        this.left.classList.add("ages__left");
+        this.agesWrapper.appendChild(this.left);
+
+        this.leftIcon = document.createElement("i");
+        this.leftIcon.classList = "fa-solid fa-chevron-left ages__left--icon";
+        this.left.appendChild(this.leftIcon);
 
         this.list = document.createElement("ul");
         this.list.classList.add("ages__list");
@@ -50,7 +50,7 @@ class Ages{
         
         this.right = document.createElement("div");
         this.right.classList.add("ages__right");
-        this.ages.appendChild(this.right);
+        this.agesWrapper.appendChild(this.right);
 
         this.rightIcon = document.createElement("i");
         this.rightIcon.classList = "fa-solid fa-chevron-right ages__right--icon";

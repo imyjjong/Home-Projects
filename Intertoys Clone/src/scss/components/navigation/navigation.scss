@@ -1,0 +1,36 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.navigation{
+    background: map-get(variables.$subHeaderVars, "background");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 16rem;
+    gap: 4rem;
+
+    &__list{
+        @include mixins.flexBox;
+        font-size: 75%;
+        font-weight: 500;
+        list-style: none;
+        gap: 2rem;
+        height: 100%;
+        letter-spacing: -0.02rem;
+    }
+    &__links{
+        @include mixins.flexBox;
+        gap: 2rem;
+        font-family: map-get(variables.$baseVars, "secondFont");
+        text-decoration: none;
+        font-weight: 700;
+        height: 100%;
+        list-style: none;
+        font-size: 75%;
+
+        &--link{
+            color: map-get(variables.$subHeaderVars, "orange");
+            text-decoration: none;
+        }
+    }
+}

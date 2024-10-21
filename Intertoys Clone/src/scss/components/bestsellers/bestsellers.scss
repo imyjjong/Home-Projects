@@ -1,0 +1,69 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.bestsellers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+
+    &__title{
+        font-size: 100%;
+        color: map-get(variables.$intertoysVars, "darkgrey");
+    }
+    &Wrapper{
+        @include mixins.flexBox;
+        width: 100%;
+        height: 27rem;
+    }
+    &__left, &__right{
+        @include mixins.leftright;
+    }
+    &__list{
+        width: 100%;
+        height: 100%;
+        @include mixins.flexBox;
+        gap: 1rem;
+
+        &--item{
+            @include mixins.flexBox;
+            flex-direction: column;
+            height: 100%;
+
+            &-image{
+                width: 100%;
+                object-fit: contain;
+            }
+            &-details{
+                width: 100%;
+                font-size: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                gap: 1rem;
+                color: map-get(variables.$intertoysVars, "darkgrey");
+            }
+            &-price{
+                font-weight: 500;
+            }
+        }
+    }
+    &__promos{
+        height: 100%;
+        @include mixins.flexBox;
+        gap: 2rem;
+        width: 100%;
+
+        &--link{
+            width: 33%;
+        }
+        &--image{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}

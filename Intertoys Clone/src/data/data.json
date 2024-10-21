@@ -83,22 +83,22 @@
     ],
     "popular": [
         {
-            "image": "src/img/popular/acties.png"
+            "image": "src/img/popular/new.png"
         },
         {
             "image": "src/img/popular/acties.png"
         },
         {
-            "image": "src/img/popular/acties.png"
+            "image": "src/img/popular/preorder.png"
         },
         {
-            "image": "src/img/popular/acties.png"
+            "image": "src/img/popular/cadeautips.png"
         },
         {
-            "image": "src/img/popular/acties.png"
+            "image": "src/img/popular/lego.png"
         },
         {
-            "image": "src/img/popular/acties.png"
+            "image": "src/img/popular/gaming.png"
         }
     ],
     "promos": [
@@ -111,29 +111,40 @@
     ],
     "bestsellers": [
         {
-            "image": "src/img/bestsellers/lego.png",
-            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
-            "price": 132.99
+            "image": "src/img/bestsellers/mario.png",
+            "title": "Super Mario Party Jamboree Nintend...",
+            "text": "Super Mario Party Jamboree Nintendo Switch",
+            "price": "59.00"
         },
         {
             "image": "src/img/bestsellers/lego.png",
-            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
+            "title": "LEGO DC Batman: de klassieke tv-ser...",
+            "text": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
             "price": 132.99
         },
         {
-            "image": "src/img/bestsellers/lego.png",
-            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
-            "price": 132.99
+            "image": "src/img/bestsellers/max.png",
+            "title": "Funko Pop! figuur Oracle Red Bull...",
+            "text": "Funko Pop! figuur Oracle Red Bull Racing Max Verstappen met helm",
+            "price": 17.99
         },
         {
-            "image": "src/img/bestsellers/lego.png",
-            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
-            "price": 132.99
+            "image": "src/img/bestsellers/puzzle.png",
+            "title": "Jumbo Jan van Haasteren 2024...",
+            "text": "Jumbo Jan van Haasteren 2024 Special 2-in-1 Vertrekhal + Tropisch zwemparadijs - 2 x 1000 stukjes",
+            "price": 19.95
         },
         {
-            "image": "src/img/bestsellers/lego.png",
-            "title": "LEGO DC Batman: de klassieke tv-serie Batmobile 76328",
-            "price": 132.99
+            "image": "src/img/bestsellers/pawpatrol.png",
+            "title": "PAW Patrol Go Pups Go etui",
+            "text": "PAW Patrol Go Pups Go etui",
+            "price": 4.99
+        },
+        {
+            "image": "src/img/bestsellers/legospeed.png",
+            "title": "LEGO Speed Champions Aston...",
+            "text": "LEGO Speed Champions Aston Martin safety car en AMR23 76925",
+            "price": 37.49
         }
     ],
     "bestsellersPromos": [
@@ -153,64 +164,70 @@
     "sales": [
         {
             "link": "",
-            "image": "src/img/sales/ps5.png",
-            "title": "PS5 Slim Digital Edition",
-            "price": 399.95
+            "image": "src/img/sales/pokemon.png",
+            "title": "Funko Pop! figuur Pokémon Glaceon - 2...",
+            "text": "Funko Pop! figuur Pokémon Glaceon - 25 cm",
+            "price": 29.98
         },
         {
             "link": "",
-            "image": "src/img/sales/ps5.png",
-            "title": "PS5 Slim Digital Edition",
-            "price": 399.95
+            "image": "src/img/sales/littledutch.png",
+            "title": "Little Dutch loopwagen Little Goose",
+            "text": "Little Dutch loopwagen Little Goose",
+            "price": 44.95
         },
         {
             "link": "",
-            "image": "src/img/sales/ps5.png",
-            "title": "PS5 Slim Digital Edition",
-            "price": 399.95
+            "image": "src/img/sales/smurfs.png",
+            "title": "Smurfen Kart PS5",
+            "text": "Smurfen Kart PS5",
+            "price": 19.99
         },
         {
             "link": "",
-            "image": "src/img/sales/ps5.png",
-            "title": "PS5 Slim Digital Edition",
-            "price": 399.95
+            "image": "src/img/sales/legomario.png",
+            "title": "LEGO Super Mario uitbreidingsset Diddy",
+            "text": "LEGO Super Mario uitbreidingsset Diddy Kongs mijnwagenrit 71425",
+            "price": 64.98
         },
         {
             "link": "",
-            "image": "src/img/sales/ps5.png",
-            "title": "PS5 Slim Digital Edition",
-            "price": 399.95
+            "image": "src/img/sales/tickettoride.png",
+            "title": "Ticket to Ride Nederland uitbreidingsset",
+            "text": "Ticket to Ride Nederland uitbreidingsset",
+            "price": "20.00"
         },
         {
             "link": "",
-            "image": "src/img/sales/ps5.png",
-            "title": "PS5 Slim Digital Edition",
-            "price": 399.95
+            "image": "src/img/sales/playmobil.png",
+            "title": "PLAYMOBIL City Action brandweertea...",
+            "text": "PLAYMOBIL City Action brandweerteam met waterpomp 9468",
+            "price": 16.98
         }
     ],
     "ages": [
         {
-            "image": "src/img/ages/0-12.png",
+            "image": "src/img/ages/0-12m.png",
             "link": ""
         },
         {
-            "image": "src/img/ages/0-12.png",
+            "image": "src/img/ages/12-18m.png",
             "link": ""
         },
         {
-            "image": "src/img/ages/0-12.png",
+            "image": "src/img/ages/anderhalf-3.png",
             "link": ""
         },
         {
-            "image": "src/img/ages/0-12.png",
+            "image": "src/img/ages/3-4.png",
             "link": ""
         },
         {
-            "image": "src/img/ages/0-12.png",
+            "image": "src/img/ages/4-6.png",
             "link": ""
         },
         {
-            "image": "src/img/ages/0-12.png",
+            "image": "src/img/ages/6-8.png",
             "link": ""
         }
     ],
@@ -220,42 +237,42 @@
             "link": ""
         },
         {
-            "image": "src/img/brands/lego.png",
+            "image": "src/img/brands/disney.png",
             "link": ""
         },
         {
-            "image": "src/img/brands/lego.png",
+            "image": "src/img/brands/pokemon.png",
             "link": ""
         },
         {
-            "image": "src/img/brands/lego.png",
+            "image": "src/img/brands/playmobil.png",
             "link": ""
         },
         {
-            "image": "src/img/brands/lego.png",
+            "image": "src/img/brands/nintendo.png",
             "link": ""
         },
         {
-            "image": "src/img/brands/lego.png",
+            "image": "src/img/brands/gabby.png",
             "link": ""
         }
     ],
     "instagram": [
         {
-            "image": "src/img/instagram/steve.png",
-            "username": "@niickypops"
+            "image": "src/img/instagram/funkos1.png",
+            "username": "@funkos_01"
         },
         {
-            "image": "src/img/instagram/steve.png",
-            "username": "@niickypops"
+            "image": "src/img/instagram/funkos2.png",
+            "username": "@funkos_01"
         },
         {
-            "image": "src/img/instagram/steve.png",
-            "username": "@niickypops"
+            "image": "src/img/instagram/funkos3.png",
+            "username": "@funkos_01"
         },
         {
-            "image": "src/img/instagram/steve.png",
-            "username": "@niickypops"
+            "image": "src/img/instagram/legosettastics.png",
+            "username": "@legosettastics"
         },
         {
             "image": "src/img/instagram/steve.png",
@@ -274,6 +291,147 @@
             "class": "about__title--second",
             "title": "Kom shoppen in onze fysieke en online speelgoedwinkel",
             "text": "Of je nu op zoek bent naar een speciaal cadeau, een verjaardag viert of gewoon een glimlach op iemands gezicht wilt toveren, Intertoys staat altijd voor je klaar. Waar wacht je nog op? Spelen is het leukste wat er is, dus Go Play!"
+        }
+    ],
+    "footer": [
+        {
+            "title": "Klantenservice",
+            "rowItems": [
+                {
+                    "title": "Contact",
+                    "link": ""
+                },
+                {
+                    "title": "Bezorgen & ophalen",
+                    "link": ""
+                },
+                {
+                    "title": "Betalen",
+                    "link": ""
+                },
+                {
+                    "title": "Ruilen & Retourneren",
+                    "link": ""
+                },
+                {
+                    "title": "Garantie",
+                    "link": ""
+                },
+                {
+                    "title": "Persinformatie",
+                    "link": ""
+                },
+                {
+                    "title": "Zakelijk bestellen",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "Over Intertoys",
+            "rowItems": [
+                {
+                    "title": "Over ons",
+                    "link": ""
+                },
+                {
+                    "title": "Winkels",
+                    "link": ""
+                },
+                {
+                    "title": "Intertoys Kadokaart",
+                    "link": ""
+                },
+                {
+                    "title": "Cadeautips",
+                    "link": ""
+                },
+                {
+                    "title": "PLAY",
+                    "link": ""
+                },
+                {
+                    "title": "Inspiratie",
+                    "link": ""
+                },
+                {
+                    "title": "Vacatures",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "Speelgoedmerken",
+            "rowItems": [
+                {
+                    "title": "LEGO",
+                    "link": ""
+                },
+                {
+                    "title": "Nintendo",
+                    "link": ""
+                },
+                {
+                    "title": "Pokémon",
+                    "link": ""
+                },
+                {
+                    "title": "VTech",
+                    "link": ""
+                },
+                {
+                    "title": "999 Games",
+                    "link": ""
+                },
+                {
+                    "title": "L.O.L. Surprise!",
+                    "link": ""
+                },
+                {
+                    "title": "PLAYMOBIL",
+                    "link": ""
+                }
+            ]
+        }
+    ],
+    "socials": [
+        {
+            "class": "fa-brands fa-instagram footer__socials--icon",
+            "link": "https://www.instagram.com/intertoys/"
+        },
+        {
+            "class": "fa-brands fa-facebook-f footer__socials--icon",
+            "link": "https://facebook.com/Intertoys/"
+        },
+        {
+            "class": "fa-brands fa-tiktok footer__socials--icon",
+            "link": "https://tiktok.com/@intertoys.nl?lang=nl-NL"
+        },
+        {
+            "class": "fa-brands fa-youtube footer__socials--icon",
+            "link": "https://youtube.com/c/intertoys"
+        }
+    ],
+    "beststore": [
+        {
+            "image": "src/img/beststore/beststoreOne.png"
+        },
+        {
+            "image": "src/img/beststore/beststoreTwo.png"
+        }
+    ],
+    "info": [
+        {
+            "name": "Algemene voorwaarden",
+            "link": ""
+        },
+        {
+            "name": "Privacy",
+            "link": ""
+        },
+        {
+            "name": "Cookies",
+            "link": ""
         }
     ]
 }

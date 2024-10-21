@@ -1,0 +1,43 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.sales{
+    width: 100%;
+
+    &__title{
+        font-size: 100%;
+        color: map-get(variables.$intertoysVars, "darkgrey");
+    }
+    &__left, &__right{
+        @include mixins.leftright;
+    }
+    &Wrapper{
+        width: 100%;
+        @include mixins.flexBox;
+    }
+    &__list{
+        width: 100%;
+        @include mixins.flexBox;
+        gap: 1rem;
+        list-style: none;
+
+        &--item{
+            width: 17rem;
+            &-image{
+                width: 100%;
+                object-fit: contain;
+                padding: 0.8rem;
+            }
+            &-price{
+                font-weight: 500;
+            }
+        }
+    }
+    &__link{
+        @include mixins.flexBox;
+        flex-direction: column;
+        text-decoration: none;
+        color: map-get(variables.$intertoysVars, "darkgrey");
+        font-size: 80%;
+    }
+}

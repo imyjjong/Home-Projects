@@ -1,0 +1,53 @@
+@use "../../abstracts/variables";
+@use "../../abstracts/mixins";
+
+.heading{
+    width: 100%;
+    @include mixins.flexBox;
+    flex-direction: column;
+    gap: 2rem;
+
+    &__banner{
+        width: 100%;
+        object-fit: contain;
+    }
+    &Wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    &__left, &__right{
+        @include mixins.leftright;
+    }
+    &__popular{
+        @include mixins.flexBox;
+
+        &--title{
+            color: map-get(variables.$intertoysVars, "darkgrey");
+            font-size: 100%;
+        }
+
+        &--list{
+            @include mixins.flexBox;
+            padding: 2rem;
+            gap: 1rem;
+            list-style: none;
+
+            &-image{
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    &__promos{
+        width: 100%;
+        @include mixins.flexBox;
+        gap: 2rem;
+
+        &--promo{
+            width: 49%;
+            object-fit: contain;
+        }
+    }
+}

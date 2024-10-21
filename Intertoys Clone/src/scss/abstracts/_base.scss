@@ -12,6 +12,7 @@ body{
 .main{
     @include mixins.flexBox;
     flex-direction: column;
-    padding: 2rem;
+    gap: 2rem;
+    padding: 2rem 16rem;
     width: 100%;
 }
