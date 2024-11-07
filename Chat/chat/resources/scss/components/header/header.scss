@@ -1,7 +1,0 @@
-@use "../../abstracts/variables";
-@use "../../abstracts/mixins";
-
-.header{
-    @include mixins.flexBox;
-    padding: 1rem;
-}
